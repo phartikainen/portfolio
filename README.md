@@ -1,4 +1,4 @@
-portfolio
+Portfolio site
 =========
 Pekka Hartikainen's portfolio
 
@@ -7,5 +7,7 @@ Projektin tavoitteena on tehdä suunnittelijan portfolio.
 * Portfoliotöiden filtteröinti
 * Routing
 * Animaatiot & transitiot
+
+## Sample wireframe
 
 ![ScreenShot](https://raw.githubusercontent.com/phartikainen/portfolio/origin/img/portfolio_description.png)
