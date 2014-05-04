@@ -2,8 +2,8 @@ portfolio
 =========
 Pekka Hartikainen's portfolio
 
-Projektin tavoitteena on tehdä suunnittelijan portfolio.
+Projektin tavoitteena on tehdÃ¤ suunnittelijan portfolio.
 *Responsiivinen sivusto
-*Portfoliotöiden filtteröinti
+*PortfoliotÃ¶iden filtterÃ¶inti
 *Routing
 *Animaatiot & transitiot
