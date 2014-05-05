@@ -7,9 +7,21 @@
  */
 
 /* ==========================================================================
+   Variables
+   ========================================================================== */
+ 
+ 
+ $link-color: #2aa5b5;
+ $light-grey: #f6f6f6;
+
+/* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
 
+* { -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box; }   
+   
 html,
 button,
 input,
@@ -82,6 +94,12 @@ textarea {
     resize: vertical;
 }
 
+a { 
+	text-decoration: none;
+	color: $link-color;
+	font-family: sans-serif;
+}
+
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
@@ -93,9 +111,146 @@ textarea {
     padding: 0.2em 0;
 }
 
+
+/* ==========================================================================
+   FONT ICONS
+   ========================================================================== */
+
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-menu {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	color: #fff;
+	// padding-top:10px;
+	// padding-bottom:10px;
+}
+
+.plain-icon {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.menu:before {
+	content: "\e001";
+}
+
+
+
 /* ==========================================================================
    MAIN STYLES
    ========================================================================== */
+
+button {
+	border: 1px solid #ccc;
+	background: $light-grey;
+
+}
+
+#mobilenav {
+			height: 44px;
+			background: $light-grey;
+			border-bottom: 1px solid #ccc;
+			width: 100%;
+	
+	button {
+		height: 100%;
+	}		
+	
+	
+	#navi {
+		float: left;
+	
+	button {
+			min-width: 54px;
+			border-width:0px 1px 0px 0px
+		}
+		
+			cursor: pointer;
+			height: 100%;
+		i {
+			color: $link-color;
+			font-size: 1.5em;
+			line-height: 1.3em;
+			margin: 0;
+			display: block;
+		}
+		
+			
+	}
+	
+	button.headlogo {
+		height:100%;
+
+	}
+	
+	#logo {
+		text-align: center;
+		padding-top: 10px;
+		vertical-align: middle;
+				overflow: hidden;
+
+	}
+	#contact {
+		float: right;
+		height: 100%;
+
+		
+		button {
+			border-width:0px 0px 0px 1px;
+			color: $link-color;
+		vertical-align: middle;		
+
+		}
+
+
+	}	
+	
+}
+
+
+
 
 
 
@@ -229,8 +384,11 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 767px) {
     /* Style adjustments for viewports that meet the condition */
+    
+
+    
 }
 
 @media print,
