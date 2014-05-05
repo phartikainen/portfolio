@@ -181,7 +181,10 @@ you can use the generic selector below, but it's slower:
 /* ==========================================================================
    MAIN STYLES
    ========================================================================== */
-
+img {  
+max-width: 100%;
+height: auto;   
+} 
 button {
 	border: 1px solid #ccc;
 	background: $light-grey;
