@@ -1,6 +1,6 @@
 Portfolio site
 =========
-Pekka Hartikainen's portfolio
+Pekka Hartikainen's portfolio: http://pekkahartikainen.fi/portfolio/
 
 Projektin tavoitteena on tehdä suunnittelijan portfolio.
 * Responsiivinen sivusto
