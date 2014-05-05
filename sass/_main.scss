@@ -30,10 +30,10 @@ textarea {
     color: #222;
 }
 
-html {
+/* html {
     font-size: 1em;
     line-height: 1.4;
-}
+}*/
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -185,7 +185,7 @@ you can use the generic selector below, but it's slower:
 button {
 	border: 1px solid #ccc;
 	background: $light-grey;
-
+	font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B'; font-weight: 300; font-style: normal;
 }
 
 #mobilenav {
@@ -193,6 +193,7 @@ button {
 			background: $light-grey;
 			border-bottom: 1px solid #ccc;
 			width: 100%;
+			font-size: 15px;
 	
 	button {
 		height: 100%;
@@ -204,15 +205,17 @@ button {
 	
 	button {
 			min-width: 54px;
-			border-width:0px 1px 0px 0px
+			border-width:0px 1px 0px 0px;
+			font-size: 16px;
 		}
 		
 			cursor: pointer;
 			height: 100%;
 		i {
 			color: $link-color;
-			font-size: 1.5em;
-			line-height: 1.3em;
+			font-size: 24px;
+			padding-top: 1px;
+			// line-height: 1.4em;
 			margin: 0;
 			display: block;
 		}
@@ -220,27 +223,31 @@ button {
 			
 	}
 	
-	button.headlogo {
-		height:100%;
 
-	}
 	
 	#logo {
 		text-align: center;
-		padding-top: 10px;
 		vertical-align: middle;
-				overflow: hidden;
+		overflow: hidden;
+				height: 100%;
+
+		button {
+			line-height: 40px;
+			border-width:0px;
+			color: $link-color;
+			width: 100%;
+			line-height: 40px;
+
+		}
 
 	}
 	#contact {
 		float: right;
 		height: 100%;
-
-		
 		button {
+			line-height: 40px;
 			border-width:0px 0px 0px 1px;
 			color: $link-color;
-		vertical-align: middle;		
 
 		}
 
