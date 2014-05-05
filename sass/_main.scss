@@ -185,7 +185,6 @@ you can use the generic selector below, but it's slower:
 button {
 	border: 1px solid #ccc;
 	background: $light-grey;
-	font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B'; font-weight: 300; font-style: normal;
 }
 
 #mobilenav {
@@ -194,9 +193,12 @@ button {
 			border-bottom: 1px solid #ccc;
 			width: 100%;
 			font-size: 15px;
+			
 	
 	button {
 		height: 100%;
+			font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B'; font-weight: 300; font-style: normal;
+
 	}		
 	
 	
