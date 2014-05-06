@@ -18,9 +18,7 @@
  $light-grey: #f6f6f6;
  
 
-  
  $base-font-size: 14px;
-
  $base-line-height: 6px;
  $set-leading: 4;
  
@@ -62,6 +60,7 @@ textarea {
 
 html {
 	@include adjust-leading-to($set-leading);
+	font-size: $base-font-size;
 }
 
 
@@ -69,7 +68,7 @@ html {
 
 body {
 	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: normal;
-	font-size: $base-font-size;
+	
 	// @include grid-background;
 	// overflow-x: hidden;
 }
@@ -532,7 +531,10 @@ you can use the generic selector below, but it's slower:
 
 @media only screen and (min-width: 767px) {
     /* Style adjustments for viewports that meet the condition */
-  
+  html {
+	  	font-size: $base-font-size * 1.14285714285714;
+	  	line-height: $base-line-height * 4 * 1.14285714285714;
+  }
     
     
 .maincolumn, .mainheading {
