@@ -9,16 +9,38 @@
 /* ==========================================================================
    Variables
    ========================================================================== */
- 
- 
+@import "compass/layout/grid-background";
+@import "compass/typography/vertical_rhythm"; 
+
+
+ $color: #cccccc;
  $link-color: #2aa5b5;
  $light-grey: #f6f6f6;
  
- $base-font-size: 16px;
+
+  
+ $base-font-size: 14px;
+ $base-line-height: 6px;
+ $set-leading: 4;
  
- @function em($px, $base: $base-font-size) {
-    @return ($px / $base) * 1em;
+ 
+ @function em($px, $base-line-height: $base-font-size) {
+    @return ($px / ($base-line-height * $set-leading)) * 1em;
 }
+ 
+ 
+
+/* BASELINE GRID */
+
+ $grid-background-baseline-height: 1.71428571428571em;
+ $grid-background-baseline-color: rgba(0, 0, 0, 0.1);
+ $show-column-grid-backgrounds: false;
+ $show-grid-backgrounds: true;
+ // $grid-background-offset: 5px;
+ 
+ 
+ @include establish-baseline;
+ 
 
 
 /* ==========================================================================
@@ -38,12 +60,23 @@ textarea {
 }
 
 html {
-    font-size: 1em;
-    line-height: 1.4;
+	@include adjust-leading-to($set-leading);
 }
+
+
+
 
 body {
 	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: normal;
+	font-size: $base-font-size;
+	// @include grid-background;
+
+}
+
+.maincolumn {
+		@include grid-background;
+		min-height: 1000px;
+
 }
 
 strong { font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 700; font-style: normal;}
@@ -199,8 +232,9 @@ h1, h2, h3 {
 }
 
 h1 { 
-	margin-top: 20px;
-	font-size: em(30px);
+	@include adjust-font-size-to(30px);
+	// margin: rhythm(4, 30px), 0 auto ;
+	
 }
 
 
