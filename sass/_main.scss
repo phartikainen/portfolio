@@ -275,6 +275,16 @@ p {
 /* ==========================================================================
    MAIN STYLES
    ========================================================================== */
+
+header {
+	position: fixed;
+	width: 100%;
+}
+
+header + :not(header) {
+	margin-top: 44px;
+}
+
 img {  
 max-width: 100%;
 height: auto;   
@@ -284,19 +294,24 @@ button {
 	background: $light-grey;
 }
 
+
+
 #mobilenav {
 			height: 44px;
-			background: $light-grey;
+			background: rgba(230, 230, 230, 0);
 			border-bottom: 1px solid #ccc;
 			width: 100%;
 			font-size: 15px;
 			
+
 	
 	button {
 		height: 100%;
-			font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B'; font-weight: 300; font-style: normal;
-
-	}		
+		font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B'; font-weight: 300; font-style: normal;
+		background: rgba(240, 240, 240, 0.96);
+	}	
+	
+	
 	
 	
 	#navi {
@@ -355,7 +370,61 @@ button {
 	
 }
 
-
+nav.mainnavi {
+		background: rgba(255, 255, 255, 0.98);
+		@include box-shadow(rgba(0, 0, 0, 0.2) 0px 0px 10px);
+		
+			button {
+		height: 44px;
+		line-height: 44px;
+		width: 44px;
+		background:transparent ;
+		float: right;
+		border-color: rgba(220, 220, 220, 0.98);
+		border-width: 0px 0px 0px 1px;
+	}	
+		i { 
+			color: $link-color;
+			// border-left: 1px solid rgba(220, 220, 220, 0.98);
+			display: inline-block;
+			height: 100%;
+			line-height: 44px;
+			
+			}
+			
+		
+		
+		ul li { border-bottom: 1px solid rgba(220, 220, 220, 0.98);
+					font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B'; font-weight: 300; font-style: normal;
+					font-size: 14px;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					
+		}
+		
+		ul li ul li {
+			border-bottom: 0px solid rgba(220, 220, 220, 0.98);
+		}
+		
+		.level2 {
+			border-top: 1px solid rgba(220, 220, 220, 0.98);
+			@include box-shadow(rgba(240,240,240, 0.98) 4px 0 8px 0px inset);
+		}	
+		
+		ul li a {
+			display: block;
+			line-height: 44px;
+			width: 100%;
+			text-indent: 20px;
+		}
+		
+		ul li ul li a {
+			display: block;
+			line-height: 44px;
+			width: 100%;
+			text-indent: 30px;
+		}
+}		
 
 
 
@@ -546,6 +615,18 @@ you can use the generic selector below, but it's slower:
 
 .menu:before {
 	content: "\e001";
+}
+
+.close:before {
+	content: "\e002";
+}
+
+.exp:before {
+	content: "\e007";
+}
+
+.col:before {
+	content: "\e008";
 }
 
 /* ==========================================================================
