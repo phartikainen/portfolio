@@ -20,6 +20,7 @@
 
   
  $base-font-size: 14px;
+
  $base-line-height: 6px;
  $set-leading: 4;
  
@@ -73,15 +74,23 @@ body {
 	// overflow-x: hidden;
 }
 
+.maincolumn, .mainheading {
+	padding: 0 12px;
+}
 .maincolumn {
 		@include grid-background;
-		min-height: 600px;
-		padding: 0 12px;
+		// min-height: 600px;
 		
 		ul, ol {
 			padding-left: 20px;
+			-webkit-column-break-inside:avoid;
+-moz-column-break-inside:avoid;
+-o-column-break-inside:avoid;
+-ms-column-break-inside:avoid;
+column-break-inside:avoid;
 			
 			li {
+			
 			
 			list-style-type: disc;
 				
@@ -233,6 +242,10 @@ p span {
 	// font-weight: 700;
 	}
 
+p {
+	orphans: 2;
+	widows: 2;
+}
 
 
 /* ==========================================================================
@@ -519,9 +532,33 @@ you can use the generic selector below, but it's slower:
 
 @media only screen and (min-width: 767px) {
     /* Style adjustments for viewports that meet the condition */
+  
     
+    
+.maincolumn, .mainheading {
+	padding: 0 20px;
+	max-width: 1280px;
+}
+.maincolumn { 
+-webkit-column-count:2; /* Chrome, Safari, Opera */
+-moz-column-count:2; /* Firefox */
+column-count:2;
+column-gap:30px;
+-moz-column-gap:30px; /* Firefox */
+-webkit-column-gap:30px; /* Safari and Chrome */
 
+
+    }   
+}
+
+@media only screen and (min-width: 1280px) {
+    /* Style adjustments for viewports that meet the condition */
+  
     
+main { 
+	margin: 0 auto;
+	max-width: 1280px;
+} 
 }
 
 @media print,
