@@ -24,7 +24,7 @@
  
  
  @function em($px, $base-line-height: $base-font-size) {
-    @return ($px / ($base-line-height * $set-leading)) * 1em;
+    @return ($px / ($base-line-height)) * 1em;
 }
  
  
@@ -189,6 +189,22 @@ h1, h2, h3 {
 	color: #222;
 }
 
+aside {
+	color: $color;
+	font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B'; font-weight: 300; font-style: normal;
+	font-variant: small-caps;
+	text-transform: lowercase;
+	font-size: em(21px);
+	// letter-spacing: 0.05em;
+	@include rhythm(5, 0, 0, 0, 32px);
+	letter-spacing: 0.05em;
+	
+}
+
+aside + h1 {
+	margin-top: -5px;
+}
+
 
 /*
 p:first-line {
@@ -199,6 +215,11 @@ p:first-line {
 }
 */
 
+summary {
+	@include adjust-font-size-to(16px);
+	@include rhythm(0, 0, 0, 5, 32px);
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: italic;
+}
 
 p + p {
 	text-indent: 20px;
@@ -222,8 +243,8 @@ p + img {
 }
 
 h1, p + h1 { 
-	@include adjust-font-size-to(32px);
-	@include rhythm(3, 1, 0, 2, 32px);
+	@include adjust-font-size-to(36px);
+	@include rhythm(3, 1, 0, 3, 36px);
 }
 
 
@@ -539,7 +560,8 @@ you can use the generic selector below, but it's slower:
 	  	font-size: $base-font-size * 1.14285714285714;
 	  	line-height: $base-line-height * 4 * 1.14285714285714;
   }
-    
+   
+
     
 .maincolumn, .mainheading {
 	padding: 0 20px;
