@@ -43,6 +43,37 @@ directives.directive('toggleButton', [ function() {
   }};
 }]);
 
+// MENU Button
+
+directives.directive('menuButton', [ function() {
+  return {
+  	restrict: 'A',
+		link: function(scope, elm, attrs) {
+			
+			var menu = $('nav');
+			var i = $('i', elm);
+			
+			var state = false;
+			$('button', elm).click(function(){
+			
+				if (state) { 
+				menu.hide();
+				i.addClass("menu");
+				i.removeClass("close");
+				}
+				else {
+					menu.show();
+					i.addClass("close");
+					i.removeClass("menu");
+				}
+				
+				state = !state;
+			});
+			
+		
+  }};
+}]);
+
 
 
 // PLACEHOLDER IMAGES
