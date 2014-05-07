@@ -18,7 +18,21 @@ angular.module('myApp.controllers', [])
       'Viinimaa'
     ];
     
-    
+  $scope.tapped = function($event) {
+  console.log("tapp");
+ /*  var ele = $event.target;
+  var x = Math.floor(Math.random() * 2) + 1,
+      y = Math.floor(Math.random() * 1) + 1,
+      z = Math.floor(Math.random() * 6) + 1,
+      rot = Math.floor(Math.random()*360)+1;
+  $(ele).css({
+    'transform': 
+      "translate3d("+x+"px,"+y+"px,"+z+"px)" +
+      "rotate("+rot+"deg)"
+  });
+ */ 
+
+}
 
   }])
   
