@@ -50,7 +50,7 @@ directives.directive('menuButton', [ function() {
   	restrict: 'A',
 		link: function(scope, elm, attrs) {
 			
-			var menu = $('nav');
+			var menu = $('nav.mainnavi');
 			var i = $('i', elm);
 			
 			var state = false;
