@@ -292,6 +292,8 @@ height: auto;
 button {
 	border: 1px solid #ccc;
 	background: $light-grey;
+	-moz-outline:0 none;
+outline:0 none;
 }
 
 
@@ -409,6 +411,7 @@ nav.mainnavi {
 		.level2 {
 			border-top: 1px solid rgba(220, 220, 220, 0.98);
 			@include box-shadow(rgba(240,240,240, 0.98) 4px 0 8px 0px inset);
+			display: none;
 		}	
 		
 		ul li a {

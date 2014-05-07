@@ -8,4 +8,21 @@ angular.module('myApp.controllers', [])
   }])
   .controller('MyCtrl2', [function() {
 
-  }]);
+  }])
+  
+  .controller('MainCtrl', ['$scope',function($scope) {
+  
+  $scope.portfolioWorks = [
+      'BetterDoctor',
+      'Mehiläinen',
+      'Viinimaa'
+    ];
+    
+    
+
+  }])
+  
+
+
+  
+  ;

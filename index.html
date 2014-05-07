@@ -25,41 +25,52 @@
 <!-- CONTENT -->
 <header>
 <div id="mobilenav">
+
 	<div id="navi">
-		<button type="button" aria-hidden="true">
+		<button type="button" aria-hidden="true" >
 			<!--	<i aria-hidden="true" class="icon-menu menu"></i> -->
 				<i aria-hidden="true" class="icon-menu close"></i>
 
 		</button>
 	</div>
+	
 	<div id="contact">
 		<button type="button" aria-hidden="true">
 				Contact
 		</button>
 	</div>
+	
 	<div id="logo">
 		<button type="button" aria-hidden="true">
 				pekkahartikainen.fi
 		</button>
 	</div>
+	</div>
 	
-		</div>
-	<nav class="mainnavi">
+	<nav class="mainnavi" ng-controller="MainCtrl">
 	<ul>
 	<li><a href="#">Home</a></li>
-	<li><a href="#">Portfolio <button type="button" aria-hidden="true"><i aria-hidden="true" class="icon-menu col"></i>
+	<li toggle-button><a href="#">Portfolio <button type="button" aria-hidden="true" ><i aria-hidden="true" class="icon-menu exp"></i>
 
 		</button></a>
 		<ul class="level2">
-			<li><a href="#">BetterDoctor</a></li>
-			<li><a href="#">Mehiläinen</a></li>
+			<li ng-repeat="works in portfolioWorks">
+          <a href="#">{{works}}</a>  
+			</li>
 		</ul>
+		
 	</li>
 	<li><a href="#">Story</a></li>
 	<li><a href="#">Profile</a></li>
+	
+	<!-- testing angular -->
+	
+	
+   
+  <!-- testing ends --> 
+   
 	</ul>
 	</nav>
-</div>	
 	
 </header>
 
@@ -71,7 +82,7 @@
 		</div>
 		<div class="maincolumn">
 		<summary>Morbi quam velit, vestibulum sed augue nec, dignissim accumsan velit. Aenean neque urna, dictum vitae lorem ac, tincidunt hendrerit magna etiam ut nisl</summary>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quam velit, vestibulum sed augue nec, dignissim accumsan velit. Aenean neque urna, dictum vitae lorem ac, tincidunt hendrerit magna etiam ut nisl ac.</p>
+		<p first-words>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quam velit, vestibulum sed augue nec, dignissim accumsan velit. Aenean neque urna, dictum vitae lorem ac, tincidunt hendrerit magna etiam ut nisl ac.</p>
 		<p ph-txt="2s"></p>
 		<p ph-txt="2s"></p>
 		<img ph-img="720x480"/>
@@ -84,7 +95,7 @@
 		<li>second thing this is a long heading testing  <a href="#">this is a long</a> heading testing  this is a long heading testing </li>
 		<li>third thing</li>
 		</ul>
-		<p ph-txt="2s"></p>
+		<p first-words ph-txt="2s"></p>
 		<p ph-txt="2s"></p>
 		<h2>BetterDoctor this is a long heading testing this now long heading testing this now</h2>
 		<p ph-txt="2s"></p>
@@ -96,8 +107,10 @@
 
 </main>
 <!-- CONTENT ENDS -->
-<footer>
 <!-- FOOTER -->
+<footer>
+</footer>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
@@ -109,10 +122,11 @@
         <script src="js/vendor/gestures.min.js"></script>
         <script src="js/app.js"></script>
 				<script src="js/services.js"></script>
+				<script src="js/factories.js"></script>
 				<script src="js/controllers.js"></script>
 				<script src="js/filters.js"></script>
 				<script src="js/directives.js"></script>
-				<script src="js/placeholders.js"></script>
+				<!--<script src="js/placeholders.js"></script>-->
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -124,6 +138,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
-</footer>
+
     </body>
 </html>
