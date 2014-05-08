@@ -14,7 +14,7 @@ directives.directive('appVersion', ['version', function(version) {
 
 // FASTCLICK
 
-directives.directive('fastclick', [ function() {
+directives.directive('fastClick', [ function() {
   return {
   	restrict: 'A',
 		link: function(scope, elm, attrs) {
