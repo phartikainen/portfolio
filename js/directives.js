@@ -12,6 +12,18 @@ directives.directive('appVersion', ['version', function(version) {
   };
 }]);
 
+// FASTCLICK
+
+directives.directive('toggleButton', [ function() {
+  return {
+  	restrict: 'A',
+		link: function(scope, elm, attrs) {
+			
+			FastClick.attach(elm);
+		
+  }};
+}]);
+
 
 
 // SHOW-HIDE Button
