@@ -18,8 +18,7 @@ directives.directive('fastClick', [ function() {
   return {
   	restrict: 'A',
 		link: function(scope, elm, attrs) {
-			
-			FastClick.attach(elm);
+			FastClick.attach(elm[0]);
 		
   }};
 }]);
