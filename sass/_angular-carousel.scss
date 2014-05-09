@@ -2,14 +2,23 @@
 
 
 .my-slider {
-    width: 450px;
-    height: 300px;
-    font-size:0;
+    width: 100%;
+    
+    
+    // font-size:0;
+    
 }
 .my-slider li {
     box-sizing: border-box;
-    font-size:30px;
+    // font-size: 12px;
     position:relative;
+    height: 100vh;
+    margin-top: -90px;
+    padding-top: 0px;
+    
+overflow-x:hidden;
+overflow-y:scroll;
+-webkit-overflow-scrolling: touch; //adding this line will enable inertial scrolling
 }
 .my-slider li div.debug {
     box-sizing: border-box;
@@ -23,14 +32,16 @@
     padding:5px;
 }
 .my-slider.standard li {
-    text-align:center;
+    // text-align:center;
     padding:20px;
-    font-size:20px;
+    // font-size:20px;
+    padding-top: 90px;
+    
 }
 .big {
     margin-top:30px;
     width:100%;
-    font-size:30px;
+    // font-size:30px;
 }
 .controls {
     margin-top:5px;
@@ -153,21 +164,21 @@
 .rn-carousel-indicator {
   width: 100%;
   text-align: center;
-  height: 20px;
-  background-color: black;
-  background-color: rgba(0, 0, 0, 0.6);
-  position: relative;
+  height: 36px;
+  // background-color: black;
+  // background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
   bottom: 0;
   cursor: pointer; }
   .rn-carousel-indicator span {
     -webkit-transition: color .2s ease-out;
     transition: color .2s ease-out;
     padding: 0 5px;
-    color: #333; }
+    color: #ccc; }
     .rn-carousel-indicator span:before {
       content: "\25cf"; }
   .rn-carousel-indicator .active {
-    color: white; }
+    color: #2aa5b5; }
 
 /* controls */
 .rn-carousel-control {

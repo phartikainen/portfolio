@@ -61,6 +61,7 @@ textarea {
 html {
 	@include adjust-leading-to($set-leading);
 	font-size: $base-font-size;
+	// height: 100%;
 }
 
 
@@ -68,7 +69,7 @@ html {
 
 body {
 	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: normal;
-	
+	// height: 100%;
 	// @include grid-background;
 	// overflow-x: hidden;
 }
@@ -279,10 +280,11 @@ p {
 header {
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }
 
 header + :not(header) {
-	margin-top: 44px;
+ padding-top: 44px;
 }
 
 img {  
@@ -653,12 +655,12 @@ you can use the generic selector below, but it's slower:
 	max-width: 1280px;
 }
 .maincolumn { 
--webkit-column-count:2; /* Chrome, Safari, Opera */
--moz-column-count:2; /* Firefox */
-column-count:2;
-column-gap:30px;
--moz-column-gap:30px; /* Firefox */
--webkit-column-gap:30px; /* Safari and Chrome */
+// -webkit-column-count:2; /* Chrome, Safari, Opera */
+// -moz-column-count:2; /* Firefox */
+// column-count:2;
+// column-gap:30px;
+// -moz-column-gap:30px; /* Firefox */
+// -webkit-column-gap:30px; /* Safari and Chrome */
 
 
     }   
