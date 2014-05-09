@@ -13,12 +13,17 @@ angular.module('myApp', [
   'angular-gestures'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view1', {
+  $routeProvider.when('/', {
   	templateUrl: 'partials/partial1.html',
   	controller: 'MainCtrl'
   });
   
   $routeProvider.when('/view2', {
+  	templateUrl: 'partials/partial2.html',
+  	controller: 'MyCtrl2'
+  });
+  
+  $routeProvider.when('/view3', {
   	templateUrl: 'partials/partial2.html',
   	controller: 'MyCtrl2'
   });

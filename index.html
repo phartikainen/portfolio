@@ -16,11 +16,10 @@
         <link rel="stylesheet" type="text/css" href="//cloud.typography.com/650856/640244/css/fonts.css" />
         <link rel="stylesheet" type="text/css" href="css/fonts.css" />
         <link rel="icon" type="image/png" href="apple-touch-icon.png">
-
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
                 
     </head>
-    <body fast-click ng-controller="MainCtrl">
+    <body fast-click ng-controller="MainCtrl" ng-init="count=0">
    
 <!-- CONTENT -->
 <header>
@@ -76,40 +75,8 @@
 		
 		
 		
-		<main>
-		<div class="mainheading">
-		<aside>Featured case</aside>
-		<h1>BetterDoctor this is a long heading testing this now</h1>
-		</div>
-		<div class="maincolumn">
-		<summary>Morbi quam velit, vestibulum sed augue nec, dignissim accumsan velit. Aenean neque urna, dictum vitae lorem ac, tincidunt hendrerit magna etiam ut nisl</summary>
-		<p first-words>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quam velit, vestibulum sed augue nec, dignissim accumsan velit. Aenean neque urna, dictum vitae lorem ac, tincidunt hendrerit magna etiam ut nisl ac.</p>
-		<!--testing view -->
-		<div ng-view></div>
-		
-		<!-- testing view ends -->
-		
-		<p ph-txt="2s"></p>
-		<p ph-txt="2s"></p>
-		<img ph-img="720x480"/>
-		<p ph-txt="2s"></p>
-		<h2>BetterDoctor this is a long heading testing this now</h2>
-		<p ph-txt="4s"></p>
-		<p ph-txt="2s"></p>
-		<ul>
-		<li>First thing</li>
-		<li>second thing this is a long heading testing  <a href="#">this is a long</a> heading testing  this is a long heading testing </li>
-		<li>third thing</li>
-		</ul>
-		<p first-words ph-txt="2s"></p>
-		<p ph-txt="2s"></p>
-		<h2>BetterDoctor this is a long heading testing this now long heading testing this now</h2>
-		<p ph-txt="2s"></p>
-		<p ph-txt="2s"></p>
-		<p ph-txt="2s"></p>
-		<h3>BetterDoctor this is a long heading testing </h3>
-		<p ph-txt="2s"></p>
-</div>		
+<main ng-view ng-swipe-left="count = count + 1" ng-swipe-right="count = count - 1">
+
 
 </main>
 <!-- CONTENT ENDS -->
