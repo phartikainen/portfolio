@@ -19,14 +19,14 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
                 
     </head>
-    <body fast-click ng-controller="MainCtrl" ng-init="count=0">
+    <body fast-click ng-controller="MainCtrl" ng-init="index=0">
    
 <!-- CONTENT -->
 <header>
 <div id="mobilenav">
 
 	<div id="navi" menu-button>
-		<button hm-tap="tapped($event)" type="button" aria-hidden="true" >
+		<button type="button" aria-hidden="true" >
 				<i aria-hidden="true" class="icon-menu menu"></i>
 
 		</button>
@@ -75,8 +75,8 @@
 		
 		
 		
-<main ng-view ng-swipe-left="count = count + 1" ng-swipe-right="count = count - 1">
-
+<main ng-view>
+<!--  hm-swipe-left="index = index + 1" hm-swipe-right="index = index - 1" -->
 
 </main>
 <!-- CONTENT ENDS -->
@@ -99,7 +99,7 @@
 				<script src="js/filters.js"></script>
 				<script src="js/directives.js"></script>
 				<script src="js/angular-gestures.js"></script>
-				
+				<script src="js/angular-carousel.js"></script>
 
 				<!--<script src="js/placeholders.js"></script>-->
 

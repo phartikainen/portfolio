@@ -10,7 +10,8 @@ angular.module('myApp', [
   'myApp.factories',
   'myApp.directives',
   'myApp.controllers',
-  'angular-gestures'
+  'angular-gestures',
+  'angular-carousel',
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {
