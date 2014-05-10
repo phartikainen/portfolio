@@ -53,21 +53,21 @@ line-height: 24px !important;
 }
 
 .expand { 
-	color: #ccc !important;
+	color: #a0a0a0 !important;
 	font-size: 10px !important;
 	letter-spacing: 1px;
 	text-transform: uppercase !important;
 	}
 
 time { text-transform: uppercase !important;
-	color: #ccc !important;
+	color: #a0a0a0 !important;
 letter-spacing: 1px;
 font-size: 10px !important;
 	
 }
 
 span.p-nickname {
-	color: #ccc !important;
+	color: #a0a0a0 !important;
 }
 
 
