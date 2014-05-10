@@ -13,10 +13,7 @@ angular.module('myApp', [
   'angular-gestures',
   'angular-carousel',
 ]).
-config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
-
-	 // use the HTML5 History API
-		$locationProvider.html5Mode(true);
+config(['$routeProvider',  function($routeProvider) {
 
 	$routeProvider.when('/', {
   	templateUrl: 'partials/partial_index.html',
@@ -47,7 +44,6 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
   	redirectTo: '/'
   });
   
- 
   
 }]);
 
