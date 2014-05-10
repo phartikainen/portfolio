@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html ng-app="DemoApp">
+    <head>
+        <meta charset="UTF-8">
+        <title>angular-carousel demo</title>
+        <meta name="viewport" content="width=620, user-scalable=no">
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href='dist/angular-carousel.css' rel='stylesheet' type='text/css'>
+        <link href='demo/demo.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body ng-controller="DemoCtrl">
+    
+
+        <ul rn-carousel rn-carousel-buffered rn-carousel-indicator rn-carousel-index="slideIndex" rn-carousel-swipe="{{swipe}}" class="my-slider ng-cloak">
+            <li ng-repeat="slide in slides" ng-style="{'background-image': 'url(' + slide.img + ')'}">
+                <div class="debug">
+                    {{ slide.label }} / {{ slides.length }}
+                    <br>
+                    carouselIndex: {{ carouselIndex }}<br>
+                    carouselBufferIndex: {{ carouselBufferIndex }}<br>
+                </div>
+            </li>
+        </ul>
+        <div class="controls ng-cloak">
+            <button class="button grey" ng-disabled="slideIndex==0" ng-click="prev()">prev</button>
+            <span>{{ slideIndex + 1 }} / {{ slides.length }}</span>
+            <button class="button grey" ng-click="next()" ng-disabled="slideIndex==slides.length-1" >next</button>
+        </div>
+
+
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-touch.min.js"></script>
+    <script src="./dist/angular-carousel.js"></script>
+
+    <script>
+        angular.module('DemoApp', [
+            'angular-carousel'
+        ])
+
+        .controller('DemoCtrl', function($scope, $timeout) {
+
+
+            function addSlide(target, style) {
+                var i = target.length;
+                target.push({
+                    label: 'slide #' + (i + 1),
+                    img: 'http://lorempixel.com/450/300/' + style + '/' + (i % 10) ,
+                    odd: (i % 2 === 0)
+                });
+            };
+
+            function addSlides(target, style, qty) {
+                for (var i=0; i < qty; i++) {
+                    addSlide(target, style);
+                }
+            }
+
+
+
+            $scope.slideIndex = 0;
+
+
+            // demo with controls
+            $scope.slides = [];
+            
+            addSlides($scope.slides, 'people', 5);
+
+            $scope.prev = function() {
+                $scope.slideIndex--;
+            }
+            $scope.next = function() {
+                $scope.slideIndex++;
+            }
+            $scope.swipe = true;
+
+
+
+
+
+
+
+
+        });
+
+    </script>
+</html>

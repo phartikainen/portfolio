@@ -155,7 +155,7 @@ angular.module('angular-carousel')
                     // enable carousel indicator
                     if (angular.isDefined(iAttributes.rnCarouselIndicator)) {
                         var indicator = $compile("<div id='carousel-" + carouselId +"-indicator' index='indicatorIndex' items='carouselIndicatorArray' rn-carousel-indicators class='rn-carousel-indicator'></div>")(scope);
-                        container.prepend(indicator);
+                        container.append(indicator);
                     }
 
                     // enable carousel controls

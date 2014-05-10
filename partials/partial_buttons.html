@@ -1,0 +1,30 @@
+			<div class="maincolumn" style="padding: 0;">
+			  <h3>buffered ngRepeat carousel with custom controls</h3>
+        <div class="details">Custom controls demo, just update the rn-carousel-index index binding</div>
+        <ul rn-carousel rn-carousel-buffered rn-carousel-indicator rn-carousel-index="slideIndex" rn-carousel-swipe="{{swipe}}" class="my-slider ng-cloak">
+            <li ng-repeat="slide in slides" ng-style="{'background-image': 'url(' + slide.img + ')'}">
+                <div class="debug">
+                    {{ slide.label }} / {{ slides.length }}
+                    <br>
+                    carouselIndex: {{ carouselIndex }}<br>
+                    carouselBufferIndex: {{ carouselBufferIndex }}<br>
+                </div>
+            </li>
+        </ul>
+        <div class="controls ng-cloak">
+            <button class="button grey" ng-disabled="slideIndex==0" ng-click="prev()">prev</button>
+            <span>{{ slideIndex + 1 }} / {{ slides.length }}</span>
+            <button class="button grey" ng-click="next()" ng-disabled="slideIndex==slides.length-1" >next</button>
+            <button class="button grey" ng-click="pushSlide()">add 3 slides</button>
+            <button class="button grey" ng-click="toggleSwipe()">toggle swipe ({{ swipe?'on':'off' }})</button>
+        </div>
+
+        <h3>object-based ngRepeat carousel with indicators</h3>
+        <div class="details">Use the object-based ngRepeat syntax. (not compatible with buffering)</div>
+        <ul rn-carousel rn-carousel-indicator rn-carousel-index="slideIndex3" class="my-slider slider3 ng-cloak">
+            <li ng-repeat="(label, color) in slides3"  ng-style="{'background-color': color}" class="center">
+                <div class="big">{{ label }}</div>
+            </li>
+        </ul>
+
+			</div>

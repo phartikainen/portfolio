@@ -61,7 +61,7 @@ textarea {
 html {
 	@include adjust-leading-to($set-leading);
 	font-size: $base-font-size;
-	// height: 100%;
+	height: 100%;
 }
 
 
@@ -69,7 +69,7 @@ html {
 
 body {
 	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: normal;
-	// height: 100%;
+	height: 100%;
 	// @include grid-background;
 	// overflow-x: hidden;
 }
