@@ -17,9 +17,10 @@ angular.module('myApp.controllers', [])
       'Mehiläinen',
       'Viinimaa'
     ];
+  
     
-  $scope.tapped = function($event) {
-  console.log("tapp");
+  $scope.dragged = function($event) {
+  console.log("draggedup");
  /*  var ele = $event.target;
   var x = Math.floor(Math.random() * 2) + 1,
       y = Math.floor(Math.random() * 1) + 1,
