@@ -12,6 +12,7 @@ angular.module('myApp', [
   'myApp.controllers',
   'angular-gestures',
   'angular-carousel',
+  'twitter.timeline',
 ]).
 config(['$routeProvider',  function($routeProvider) {
 
