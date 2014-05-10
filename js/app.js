@@ -13,8 +13,22 @@ angular.module('myApp', [
   'angular-gestures',
   'angular-carousel',
 ]).
-config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/', {
+config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+
+	 // use the HTML5 History API
+		$locationProvider.html5Mode(true);
+
+	$routeProvider.when('/', {
+  	templateUrl: 'partials/partial_index.html',
+  	controller: 'MainCtrl'
+  });
+	
+  $routeProvider.when('/story', {
+  	templateUrl: 'partials/partial_article.html',
+  	controller: 'MainCtrl'
+  });
+  
+  $routeProvider.when('/portfolio', {
   	templateUrl: 'partials/partial1.html',
   	controller: 'MainCtrl'
   });
@@ -30,8 +44,11 @@ config(['$routeProvider', function($routeProvider) {
   });
   
   $routeProvider.otherwise({
-  	redirectTo: '/view1'
+  	redirectTo: '/'
   });
+  
+ 
+  
 }]);
 
 
