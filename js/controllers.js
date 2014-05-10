@@ -18,7 +18,6 @@ angular.module('myApp.controllers', [])
       'Viinimaa'
     ];
   
-    
   $scope.dragged = function($event) {
   console.log("draggedup");
  /*  var ele = $event.target;
