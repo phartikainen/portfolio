@@ -20,14 +20,24 @@ config(['$routeProvider',  function($routeProvider) {
   	templateUrl: 'partials/partial_index.html',
   	controller: 'MainCtrl'
   });
+  
+  $routeProvider.when('/portfolio', {
+  	templateUrl: 'partials/partial1.html',
+  	controller: 'MainCtrl'
+  });
 	
   $routeProvider.when('/story', {
   	templateUrl: 'partials/partial_article.html',
   	controller: 'MainCtrl'
   });
   
-  $routeProvider.when('/portfolio', {
-  	templateUrl: 'partials/partial1.html',
+  $routeProvider.when('/profile', {
+  	templateUrl: 'partials/partial_article.html',
+  	controller: 'MainCtrl'
+  });
+  
+  $routeProvider.when('/contact', {
+  	templateUrl: 'partials/partial_article.html',
   	controller: 'MainCtrl'
   });
   

@@ -30,7 +30,7 @@
 <header>
 <div id="mobilenav" >
 
-	<div id="navi" menu-button>
+	<div id="navi" menu-button id="menubut">
 		<button type="button" aria-hidden="true" >
 				<i aria-hidden="true" class="icon-menu menu"></i>
 
@@ -39,21 +39,21 @@
 	
 	<div id="contact">
 		<button type="button" aria-hidden="true">
-				Contact
+				<a href="/#/contact/">Contact</a>
 		</button>
 	</div>
 	
 	<div id="logo">
 		<button type="button" aria-hidden="true">
-				pekkahartikainen.fi
+				<a href="/">pekkahartikainen.fi</a>
 		</button>
 	</div>
 	</div>
 	
 	<nav class="mainnavi">
 	<ul>
-	<li><a href="#">Home</a></li>
-	<li toggle-button><a href="javascript:;">Portfolio <button type="button" aria-hidden="true" ><i aria-hidden="true" class="icon-menu exp"></i>
+	<li><a menu-button href="/#/">Home</a></li>
+	<li toggle-button><a menubutton href="/#/portfolio/">Portfolio <button type="button" aria-hidden="true" class="expanda"><i aria-hidden="true" class="icon-menu exp"></i>
 
 		</button></a>
 		<ul class="level2">
@@ -63,8 +63,8 @@
 		</ul>
 		
 	</li>
-	<li><a href="javascript:;">Story</a></li>
-	<li><a href="javascript:;">Profile</a></li>
+	<li><a href="/#/story/">Story</a></li>
+	<li><a href="/#/profile/">Profile</a></li>
 	
 	<!-- testing angular -->
 	
