@@ -435,21 +435,10 @@ nav.mainnavi {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+nav.mainnavi ul li.togglebut a {
+	width: calc(100% - 44px);
+	display: inline-block;
+}
 
 
 
@@ -635,8 +624,6 @@ you can use the generic selector below, but it's slower:
 .col:before {
 	content: "\e008";
 }
-
-.expanda {z-index: 1;}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.

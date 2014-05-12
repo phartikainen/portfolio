@@ -32,6 +32,8 @@ directives.directive('toggleButton', [ function() {
   	restrict: 'A',
 		link: function(scope, elm, attrs) {
 			
+			elm.addClass('togglebut');
+			
 			var ul = $('ul', elm);
 			var i = $('i', elm);
 			
@@ -67,6 +69,9 @@ directives.directive('menuButton', [ function() {
 			var i = $('i', elm);
 			
 			var state = false;
+			
+			
+			
 			$('button', elm).click(function(){
 			
 				if (state) { 
