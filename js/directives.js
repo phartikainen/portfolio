@@ -67,8 +67,6 @@ directives.directive('menuButton', [ function() {
 			var i = $('i', elm);
 			
 			var state = false;
-			
-			
 			$('button', elm).click(function(){
 			
 				if (state) { 
