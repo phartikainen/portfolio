@@ -72,7 +72,8 @@ directives.directive('menuButton', [ function() {
 			
 			
 			
-			$('button', elm).click(function(){
+
+			$('#menubut', elm).click(function(e){
 			
 				if (state) { 
 				menu.hide();
@@ -86,11 +87,34 @@ directives.directive('menuButton', [ function() {
 				}
 				
 				state = !state;
+				console.log(state);
+				e.stopPropagation();
 			});
+			
+			$('#expand').on('click', function(e) {
+					e.stopPropagation();
+			});
+			
+			$(document, elm).click(function(){
+			
+				if (state) { 
+				menu.hide();
+				i.addClass("menu");
+				i.removeClass("close");
+				state = !state;
+				}
+				
+				
+				
+				console.log(state);
+			});
+			
 			
 		
   }};
 }]);
+
+
 
 
 

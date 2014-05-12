@@ -14,7 +14,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/all.css">
-        <link rel="stylesheet" type="text/css" href="//cloud.typography.com/650856/640244/css/fonts.css" />
+        <!-- <link rel="stylesheet" type="text/css" href="//cloud.typography.com/650856/640244/css/fonts.css" /> -->
         <link rel="stylesheet" type="text/css" href="css/fonts.css" />
         <link rel="icon" type="image/png" href="apple-touch-icon.png">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -31,7 +31,7 @@
 <div id="mobilenav" >
 
 	<div id="navi" menu-button>
-		<button type="button" aria-hidden="true" >
+		<button type="button" id="menubut" aria-hidden="true">
 				<i aria-hidden="true" class="icon-menu menu"></i>
 
 		</button>
@@ -54,9 +54,9 @@
 	<ul>
 	<li><a href="#/">Home</a></li>
 	<li toggle-button>
-	<button type="button" aria-hidden="true"><i aria-hidden="true" class="icon-menu exp"></i>
+	<button type="button" id="expand" aria-hidden="true"><i aria-hidden="true" class="icon-menu exp"></i>
 	</button>
-	<a href="#/portfolio">Portfoli</a>
+	<a href="#/portfolio">Portfolio</a>
 
 		<ul class="level2">
 			<li ng-repeat="works in portfolioWorks">
