@@ -21,32 +21,32 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
   	controller: 'MainCtrl'
   });
   
-  $routeProvider.when('/portfolio', {
+  $routeProvider.when('/portfolio/', {
   	templateUrl: 'partials/partial1.html',
   	controller: 'MainCtrl'
   });
 	
-  $routeProvider.when('/story', {
+  $routeProvider.when('/story/', {
   	templateUrl: 'partials/partial_article.html',
   	controller: 'MainCtrl'
   });
   
-  $routeProvider.when('/profile', {
+  $routeProvider.when('/profile/', {
   	templateUrl: 'partials/partial_article.html',
   	controller: 'MainCtrl'
   });
   
-  $routeProvider.when('/contact', {
+  $routeProvider.when('/contact/', {
   	templateUrl: 'partials/partial_article.html',
   	controller: 'MainCtrl'
   });
   
-  $routeProvider.when('/view2', {
+  $routeProvider.when('/view2/', {
   	templateUrl: 'partials/partial2.html',
   	controller: 'MyCtrl2'
   });
   
-  $routeProvider.when('/view3', {
+  $routeProvider.when('/view3/', {
   	templateUrl: 'partials/partial2.html',
   	controller: 'MyCtrl2'
   });
