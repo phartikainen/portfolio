@@ -25,7 +25,7 @@ directives.directive('fastClick', [ function() {
 
 
 
-// SHOW-HIDE Button
+// SHOW-HIDE Button subnavi
 
 directives.directive('toggleButton', [ function() {
   return {
@@ -69,9 +69,8 @@ directives.directive('menuButton', [ function() {
 			var i = $('i', elm);
 			
 			var state = false;
-			
-			
-			
+
+			// MENU Button
 
 			$('#menubut', elm).click(function(e){
 			
@@ -87,13 +86,16 @@ directives.directive('menuButton', [ function() {
 				}
 				
 				state = !state;
-				console.log(state);
 				e.stopPropagation();
 			});
 			
-			$('#expand').on('click', function(e) {
+			// Expand subnavi, don't close
+			
+			$('.expand').on('click', function(e) {
 					e.stopPropagation();
 			});
+			
+			// Everywhere else, close navi
 			
 			$(document, elm).click(function(){
 			
@@ -106,7 +108,6 @@ directives.directive('menuButton', [ function() {
 				
 				
 				
-				console.log(state);
 			});
 			
 			
