@@ -68,11 +68,8 @@ directives.directive('menuButton', [ function() {
 			
 			var state = false;
 			
-			$('.expanda').click(function(event){
-				event.stopPropagation();
-			});
-
-			$(document, elm).click(function(){
+			
+			$('button', elm).click(function(){
 			
 				if (state) { 
 				menu.hide();
