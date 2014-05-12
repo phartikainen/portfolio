@@ -14,7 +14,7 @@ angular.module('myApp', [
   'angular-carousel',
   'twitter.timeline',
 ]).
-config(['$routeProvider',  function($routeProvider) {
+config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
 	$routeProvider.when('/', {
   	templateUrl: 'partials/partial_index.html',
@@ -55,6 +55,7 @@ config(['$routeProvider',  function($routeProvider) {
   	redirectTo: '/'
   });
   
+  $locationProvider.html5Mode(true);
   
 }]);
 
