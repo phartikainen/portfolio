@@ -627,6 +627,15 @@ you can use the generic selector below, but it's slower:
 
 .expand { z-index: 2;}
 
+
+
+.active {
+	color: #666;
+}
+.active:before {
+	content: "» ";
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.

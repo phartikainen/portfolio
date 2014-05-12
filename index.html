@@ -51,13 +51,13 @@
 	</div>
 	</div>
 	
-	<nav class="mainnavi">
+	<nav class="mainnavi" ng-controller="HeaderController">
 	<ul>
-	<li><a href="/">Home</a></li>
+	<li><a ng-class="{ active: isActive('/')}" href="/">Home</a></li>
 	<li toggle-button>
 	<button type="button" class="expand" aria-hidden="true"><i aria-hidden="true" class="icon-menu exp"></i>
 	</button>
-	<a href="portfolio">Portfolio</a>
+	<a ng-class="{ active: isActive('/portfolio/')}" href="portfolio">Portfolio</a>
 
 		<ul class="level2">
 			<li ng-repeat="works in portfolioWorks">
@@ -67,8 +67,8 @@
 		
 	</li>
 
-	<li><a href="story/">Story</a></li>
-	<li><a href="profile/">Profile</a></li>
+	<li><a ng-class="{ active: isActive('/story/')}" href="story">Story</a></li>
+	<li><a ng-class="{ active: isActive('/profile/')}" href="profile/">Profile</a></li>
 	
 	<!-- testing angular -->
 	

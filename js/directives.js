@@ -301,6 +301,9 @@ directives.directive( 'phTxt', [ 'TextGeneratorService', function ( TextGenerato
 }]);
 
 
+
+
+
 // FIRST THREE WORDS SMALL CAPS
 
 directives.directive('firstWords', [ function() {

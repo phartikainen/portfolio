@@ -6,8 +6,10 @@ angular.module('myApp.controllers', [])
   .controller('MyCtrl1', [function() {
 
   }])
-  .controller('MyCtrl2', [function() {
-
+  .controller('HeaderController', ['$scope', '$location', function($scope, $location) {
+		$scope.isActive = function (viewLocation) { 
+        return viewLocation === $location.path();
+    };
   }])
   
 
@@ -20,6 +22,7 @@ angular.module('myApp.controllers', [])
       'Mehiläinen',
       'Viinimaa'
     ];
+    
   
   $scope.dragged = function($event) {
   console.log("draggedup");
