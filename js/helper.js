@@ -230,7 +230,7 @@
     /**
      * iOS Startup Image helper
      */
-
+     
     MBP.startupImage = function() {
         var portrait;
         var landscape;
