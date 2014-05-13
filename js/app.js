@@ -2,7 +2,7 @@
 
 
 // Declare app level module which depends on filters, and services
-angular.module('myApp', [
+var myApp = angular.module('myApp', [
   'ngRoute',
   'ngTouch',
   'myApp.filters',
@@ -58,5 +58,24 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
   $locationProvider.html5Mode(true);
   
 }]);
+
+// $(window).scrollTop(0); 
+
+myApp.run(function($rootScope, $route, $location){
+   //Bind the `$locationChangeSuccess` event on the rootScope, so that we dont need to 
+   //bind in induvidual controllers.
+
+     $rootScope.$watch(function () {return $location.path()}, function (newLocation, oldLocation) {
+        if($rootScope.actualLocation !== newLocation) {
+          $(window).scrollTop(0);
+        }
+
+    });
+    
+    $rootScope.$on('$locationChangeSuccess', function(object, newLocation, previousLocation) {
+        $rootScope.actualLocation = $location.path();
+    });
+    
+});
 
 

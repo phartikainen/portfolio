@@ -6,10 +6,12 @@ angular.module('myApp.controllers', [])
   .controller('MyCtrl1', [function() {
 
   }])
+  
   .controller('HeaderController', ['$scope', '$location', function($scope, $location) {
 		$scope.isActive = function (viewLocation) { 
         return viewLocation === $location.path();
     };
+    
   }])
   
 
@@ -23,10 +25,10 @@ angular.module('myApp.controllers', [])
       'Viinimaa'
     ];
     
-  
+   /*
   $scope.dragged = function($event) {
   console.log("draggedup");
- /*  var ele = $event.target;
+  var ele = $event.target;
   var x = Math.floor(Math.random() * 2) + 1,
       y = Math.floor(Math.random() * 1) + 1,
       z = Math.floor(Math.random() * 6) + 1,
@@ -36,9 +38,10 @@ angular.module('myApp.controllers', [])
       "translate3d("+x+"px,"+y+"px,"+z+"px)" +
       "rotate("+rot+"deg)"
   });
- */ 
+ 
 
 }
+*/ 
 
   }])
   
