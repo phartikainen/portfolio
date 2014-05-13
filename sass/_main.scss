@@ -437,7 +437,10 @@ nav.mainnavi {
 
 
 nav.mainnavi ul li.togglebut a {
-	width: calc(100% - 44px);
+	width: -moz-calc(100% - 44px);
+    width: -webkit-calc(100% - 44px);
+    width: -o-calc(100% - 44px);
+    width: calc(100% - 44px);
 	display: inline-block;
 }
 
