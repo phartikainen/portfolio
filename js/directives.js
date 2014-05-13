@@ -43,12 +43,12 @@ directives.directive('toggleButton', [ function() {
 			$('button', elm).click(function(){
 			
 				if (state) { 
-				ul.hide();
+				ul.toggle(150);
 				i.addClass("exp");
 				i.removeClass("col");
 				}
 				else {
-					ul.show();
+					ul.toggle(150);
 					i.addClass("col");
 					i.removeClass("exp");
 				}
