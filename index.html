@@ -9,8 +9,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Pekka Hartikainen</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+				
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="/css/all.css">
@@ -22,8 +22,15 @@
 	        #twitter-feed {
 		        width: 100% !important;
 	        }
+	        
+	        body { min-height: 800px;}
+	        
         </style>
         <base href="/" />
+       
+        
+        
+        
     </head>
     <body fast-click ng-controller="MainCtrl">
    
@@ -108,7 +115,13 @@
 				<script src="/js/twitter-timeline.js"></script>
 
 				<!--<script src="/js/placeholders.js"></script>-->
-
+				<script>
+window.addEventListener("load",function() {
+  setTimeout(function(){
+    window.scrollTo(0, 1);
+  }, 100);
+});
+</script> 
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
