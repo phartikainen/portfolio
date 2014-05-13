@@ -19,9 +19,12 @@ directives.directive('fastClick', [ function() {
   	restrict: 'A',
 		link: function(scope, elm, attrs) {
 			FastClick.attach(elm[0]);
+			MBP.hideUrlBarOnLoad();
 		
   }};
 }]);
+
+
 
 
 
