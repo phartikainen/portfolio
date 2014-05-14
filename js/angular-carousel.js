@@ -368,7 +368,7 @@ angular.module('angular-carousel')
                     }
 
                     function swipeMove(coords, event) {
-                        //console.log('swipeMove', coords, event);
+                        // console.log('swipeMove', coords, event);
                         var x, delta;
                         if (pressed) {
                             x = coords.x;

@@ -19,29 +19,56 @@ angular.module('myApp.controllers', [])
   
   .controller('MainCtrl', ['$scope',function($scope) {
   
+  //  $scope.slideIndex2  = 1;
+  
+  
   $scope.portfolioWorks = [
       'BetterDoctor',
       'Mehiläinen',
       'Viinimaa'
     ];
     
-   /*
-  $scope.dragged = function($event) {
-  console.log("draggedup");
-  var ele = $event.target;
-  var x = Math.floor(Math.random() * 2) + 1,
-      y = Math.floor(Math.random() * 1) + 1,
-      z = Math.floor(Math.random() * 6) + 1,
-      rot = Math.floor(Math.random()*360)+1;
-  $(ele).css({
-    'transform': 
-      "translate3d("+x+"px,"+y+"px,"+z+"px)" +
-      "rotate("+rot+"deg)"
+   
+  $scope.draggedup = function($event) {
+  // console.log($event.type);
+  // var footer = $event.target;
+  var headingSpace = -44;
+  var windowHeight = (($(window).height()) - headingSpace);
+  
+  if (Modernizr.touch) { 
+  $('.rn-carousel-indicator').css({
+    'display': "none",
   });
- 
+  $('.rn-carousel-controls').css({
+    'display': "none",
+  });
+  
+  
+	$('.my-slider li').css({'height' : windowHeight});
+  
+	}	
 
 }
-*/ 
+
+ $scope.draggeddown = function($event) {
+  // console.log("draggeddown");
+  // var footer = $event.target;
+  
+  if (Modernizr.touch) { 
+  
+  $('.rn-carousel-indicator').css({
+    'display': "block",
+  });
+  $('.rn-carousel-controls').css({
+    'display': "block",
+  });
+	
+	}
+
+}
+
+ 
+	
 
   }])
   

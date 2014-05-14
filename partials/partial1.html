@@ -1,8 +1,17 @@
 			
-			<div class="maincolumn" style="padding: 0;" >
+			<div class="maincolumn" style="padding: 0;" hm-drag-up="draggedup($event)" hm-drag-down="draggeddown($event)">
 			 <ul rn-carousel rn-carousel-indicator rn-carousel-control  class="my-slider standard ng-cloak">
             <li ng-style="{'background-color': '#ccc'}">
                 <h2>Testing</h2>
+
+                carouselIndex: {{ carouselIndex }}
+                <br />
+                indicatorIndex: {{ indicatorIndex }}
+                <br />
+                {{ carouselBufferIndex }}
+                <br />
+                {{ transforms }}
+                <a href="" ng-click="goToSlide();">test</a>
                 <p ph-txt="4s20p"></p>
                 <p>Last </p>
             </li><li ng-style="{'background-color': 'red'}">
