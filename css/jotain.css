@@ -70,15 +70,21 @@ span.p-nickname {
 	color: #2aa5b5 !important;
 }
 
+@media only screen and (min-width: 541px) {
+
 #twitter-feed {
 		        width: 100% !important;
 		        max-width: 100% !important;
  }
 
-@media only screen and (max-width: 521px) {
+}
+
+@media only screen and (max-width: 541px) {
+
 
   #twitter-feed {
-		        padding-right: 20px !important;
+		        width: 100% !important;
+		        max-width: 100% !important;
 	        }
 
 
@@ -93,7 +99,8 @@ only screen and (                min-resolution: 192dpi) and (min-width: 320px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 320px) { 
 
     #twitter-feed {
-		       padding-right: 0px !important;
+		       width: 100% !important;
+		        max-width: 100% !important;
 		        
 	        }
 
