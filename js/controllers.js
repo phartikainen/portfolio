@@ -32,8 +32,6 @@ angular.module('myApp.controllers', [])
   $scope.draggedup = function($event) {
   // console.log($event.type);
   // var footer = $event.target;
-  var headingSpace = -44;
-  var windowHeight = (($(window).height()) - headingSpace);
   
   if (Modernizr.touch) { 
   $('.rn-carousel-indicator').css({
@@ -44,7 +42,7 @@ angular.module('myApp.controllers', [])
   });
   
   
-	$('.my-slider li').css({'height' : windowHeight});
+	
   
 	}	
 
