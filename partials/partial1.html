@@ -14,6 +14,8 @@
                 <a href="" ng-click="goToSlide();">test</a>
                 <p ph-txt="4s8p"></p>
                 <p>Last </p>
+                <br />
+                <br />
             </li><li ng-style="{'background-color': 'red'}">
             <h2>Slide 2</h2>
             <p ph-txt="4s8p"></p>
@@ -36,17 +38,13 @@
 		
 	*/	
   var theHeight = ($(window).height() - 44);
- 
+//  $('body').css({'height' : '444px'});
   // var realHeight = (theHeight * dpr);
   // var cssHeight = realHeight + 'px' + ' !important';
   
   
   
-  
-  setTimeout(function(){
-  	window.scrollTo(0,1);
-  	$('.my-slider li').css({'height' : '100vh'});
-  	}, 4000);
+ 
   
 	       // console.log(cssHeight);
 				</script> 

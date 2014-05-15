@@ -14,6 +14,7 @@
     position:relative;
     height: 100vh;
     margin-top: -44px;
+    padding-bottom: 44px;
     padding-top: 0px;
     
 overflow-x:hidden;
@@ -210,3 +211,40 @@ overflow-y:visible;
     right: 0.5em; }
     .rn-carousel-control.rn-carousel-control-next:before {
       content: ">"; }
+      
+    
+@media only screen and (max-height: 480px) {
+
+
+  body {
+	   min-height: 444px;
+  }
+
+}      
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (max-width: 480px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (max-width: 480px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: 480px),
+only screen and (        min-device-pixel-ratio: 2)      and (max-width: 480px),
+only screen and (                min-resolution: 2dppx)  and (max-width: 480px) { 
+
+    html, body {
+	  min-height: auto !important;
+  }
+
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 481px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 481px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 481px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 481px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 481px) { 
+
+    body {
+	  // height: 530px !important;
+  }
+
+}
