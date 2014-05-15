@@ -13,11 +13,11 @@
     // font-size: 14px;
     position:relative;
     height: 100vh;
-    margin-top: -88px;
+    margin-top: -44px;
     padding-top: 0px;
     
 overflow-x:hidden;
-overflow-y:scroll;
+overflow-y:visible;
 -webkit-overflow-scrolling: touch; //adding this line will enable inertial scrolling
 }
 .my-slider li div.debug {
