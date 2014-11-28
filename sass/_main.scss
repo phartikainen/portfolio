@@ -301,7 +301,7 @@ height: auto;
 } 
 
 img.folio {
-	padding: 5px;
+// 	padding: 5px;
 	border: 5px solid #fff;
 -webkit-box-shadow: 0px 0px 1px 1px #ddd;
 -moz-box-shadow: 0px 0px 1px 1px #ddd;
@@ -418,7 +418,7 @@ nav.mainnavi {
 		
 		ul li { border-bottom: 1px solid rgba(220, 220, 220, 0.98);
 					font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B'; font-weight: 300; font-style: normal;
-					font-size: 14px;
+					//font-size: 14px;
 					text-transform: uppercase;
 					letter-spacing: 1px;
 					
@@ -472,7 +472,7 @@ nav.mainnavi ul li.togglebut a {
 	margin-top: 0px;
 }
 
-.maincolumn h1, h2, h3, summary, p {
+.maincolumn h1, h2, h3, summary, p, ul.lis li {
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
@@ -481,18 +481,19 @@ nav.mainnavi ul li.togglebut a {
 
 
 .maincolumn img { 
-	margin-top: 6em;
-	margin-bottom: 6em;
+	padding-top: 6em;
+	margin-bottom: 2em;
 	
 }
 
  img.folio  {
 	  display: block;
-	  padding: 2px;
+	  padding: 0px;
 	  width: calc(100% - 30px);
 	  text-align: center;
 	  margin-left: auto;
 	  margin-right: auto;
+	  max-width: 1280px;
   }
 
 
@@ -519,12 +520,25 @@ figcaption {
 	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal;
 	font-variant: small-caps;
 	text-transform: lowercase;
-	font-size: em(21px);
-	// letter-spacing: 0.05em;
-	@include rhythm(5, 0, 0, 0, 32px);
-	letter-spacing: 0.05em;
+	@include adjust-font-size-to(14px);
+	@include rhythm(0, 2, 8, 0, 16px);
+	letter-spacing: 0.1em;
 	text-align: center;
 	
+	
+}
+
+div.bg-white {
+
+	padding-top: 6em;
+
+}
+
+div.bg-grey {
+
+@include background-image(linear-gradient(top, #ededed 0%,#f4f4f4 100%));
+	padding-top: 6em;
+
 }
 
 /* ==========================================================================
@@ -729,14 +743,13 @@ you can use the generic selector below, but it's slower:
   }
    
     img.folio  {
-	  padding: 3px;
 	  width: calc(100% - 40px);
   }
 
     
 .maincolumn, .mainheading {
 	padding: 0 20px;
-	max-width: 1280px;
+	// max-width: 1280px;
 	margin: 0 auto;
 }
 .maincolumn { 
@@ -777,7 +790,7 @@ div.folio-bg {
 }
 
   img.folio  {
-	  padding: 3px;
+	  border: 10px solid #fff;
 	  width: calc(100%);
   }
 
