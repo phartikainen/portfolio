@@ -34,10 +34,22 @@ overflow-y:visible;
 }
 .my-slider.standard li {
     // text-align:center;
-    padding:20px;
+    padding:0px;
     // font-size:20px;
-    padding-top: 88px;
+    padding-top: 44px;
+
 }
+
+.my-slider.standard li {
+	h1, h2, h3, summary, p {
+    padding: 0px 15px 0px 15px;
+    }
+     
+}
+
+
+
+
 .big {
     margin-top:30px;
     width:100%;
