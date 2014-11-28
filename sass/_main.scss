@@ -533,7 +533,7 @@ div.spacer {
 }
 div.bg-white {
 	@include background-image(linear-gradient(top, #ffffff 0%,#f4f4f4 100%));
-	padding-top: 4em;
+	padding-top: 1em;
 
 }
 
@@ -546,7 +546,7 @@ div.bg-grey {
 div.end {
 
 @include background-image(linear-gradient(top, #f4f4f4 0%,#ffffff 100%));
-	padding-top: 4em;
+	padding-top: 1em;
 	padding-bottom: 4em;
 }
 
@@ -757,6 +757,11 @@ you can use the generic selector below, but it's slower:
 
   }
   
+  div.bg-white {
+	padding-top: 3em;
+
+}
+  
   p { text-align: justify;}
 
     
@@ -820,24 +825,8 @@ figcaption {
 	
 }
 
-div.spacer {
 
-	height: 6em;
-
-}
-div.bg-white {
-	@include background-image(linear-gradient(top, #ffffff 0%,#f4f4f4 100%));
-	padding-top: 6em;
-
-}
-
-div.bg-grey {
-
-@include background-image(linear-gradient(top, #efefef 0%,#f4f4f4 100%));
-	padding-top: 6em;
-}
-
-div.end {
+div.bg-white, div.bg-grey, div.end {
 	padding-top: 6em;
 }
 
