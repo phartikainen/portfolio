@@ -470,9 +470,10 @@ nav.mainnavi ul li.togglebut a {
 	padding-top: 10px;
 	padding-bottom: 0px;
 	margin-top: 0px;
+	margin-left: 15px;
 }
 
-.maincolumn h1, h2, h3, summary, p, ul.lis li {
+.maincolumn h1, h2, h3, summary, p, ul.lis  {
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
@@ -481,8 +482,6 @@ nav.mainnavi ul li.togglebut a {
 
 
 .maincolumn img { 
-	padding-top: 6em;
-	margin-bottom: 2em;
 	
 }
 
@@ -521,24 +520,34 @@ figcaption {
 	font-variant: small-caps;
 	text-transform: lowercase;
 	@include adjust-font-size-to(14px);
-	@include rhythm(0, 2, 8, 0, 16px);
+	@include rhythm(5, 0, 5, 0, 16px);
 	letter-spacing: 0.1em;
 	text-align: center;
 	
 	
 }
 
-div.bg-white {
+div.spacer {
 
-	padding-top: 6em;
+	height: 3em;
+
+}
+div.bg-white {
+	@include background-image(linear-gradient(top, #ffffff 0%,#f4f4f4 100%));
+	padding-top: 4em;
 
 }
 
 div.bg-grey {
 
-@include background-image(linear-gradient(top, #ededed 0%,#f4f4f4 100%));
-	padding-top: 6em;
+@include background-image(linear-gradient(top, #efefef 0%,#f4f4f4 100%));
+	padding-top: 4em;
+}
 
+div.end {
+
+@include background-image(linear-gradient(top, #f4f4f4 0%,#ffffff 100%));
+	padding-top: 4em;
 }
 
 /* ==========================================================================
@@ -743,8 +752,12 @@ you can use the generic selector below, but it's slower:
   }
    
     img.folio  {
-	  width: calc(100% - 40px);
+	  width: calc(100% - 80px);
+	  border: 10px solid #fff;
+
   }
+  
+  p { text-align: justify;}
 
     
 .maincolumn, .mainheading {
@@ -790,9 +803,47 @@ div.folio-bg {
 }
 
   img.folio  {
-	  border: 10px solid #fff;
 	  width: calc(100%);
   }
+
+
+figcaption {
+	color: $color;
+	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal;
+	font-variant: small-caps;
+	text-transform: lowercase;
+	@include adjust-font-size-to(14px);
+	@include rhythm(7, 0, 7, 0, 16px);
+	letter-spacing: 0.1em;
+	text-align: center;
+	
+	
+}
+
+div.spacer {
+
+	height: 6em;
+
+}
+div.bg-white {
+	@include background-image(linear-gradient(top, #ffffff 0%,#f4f4f4 100%));
+	padding-top: 6em;
+
+}
+
+div.bg-grey {
+
+@include background-image(linear-gradient(top, #efefef 0%,#f4f4f4 100%));
+	padding-top: 6em;
+}
+
+div.end {
+
+@include background-image(linear-gradient(top, #f8f8f8 0%,#ffffff 100%));
+	padding-top: 6em;
+}
+
+
 
 
 }
