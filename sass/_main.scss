@@ -273,12 +273,36 @@ p span {
 	font-size: 1em;
 	// font-weight: 700;
 	}
+	
+	
 
 p {
 	orphans: 2;
 	widows: 2;
 }
 
+u {
+	padding-left: 1em;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	font-family: 'Gotham SSm A', 'Gotham SSm B';
+	font-weight: 400;
+	@include rhythm(3, 0, 0, 0, 32px);
+	display: inline-block;
+}
+
+u span { 
+	color: #fff;
+	padding: 4px 10px 5px 10px;
+	@include border-radius(3px);
+	// display: inline-block;
+	margin-right: 6px;
+	}
+
+.uid { background: #2aa5b5; }
+.uxd { background: #19bd9b; }
+.grd { background: #f2c40f; }
 
 
 /* ==========================================================================
@@ -550,6 +574,8 @@ div.end {
 	padding-bottom: 4em;
 }
 
+p
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -790,6 +816,21 @@ you can use the generic selector below, but it's slower:
 }
 
 
+div.content-wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	
+}
+
+div.col-left {
+	float: left;
+	width: 50%;
+}
+
+div.col-right {
+	float: right;
+	width: 50%;
+}
 
     
 } // end media query
