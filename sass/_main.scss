@@ -332,6 +332,14 @@ img.folio {
 box-shadow: 0px 0px 1px 1px #ddd;
 }
 
+img.foliosmall {
+// 	padding: 5px;
+	border: 5px solid #fff;
+-webkit-box-shadow: 0px 0px 1px 1px #ddd;
+-moz-box-shadow: 0px 0px 1px 1px #ddd;
+box-shadow: 0px 0px 1px 1px #ddd;
+}
+
 button {
 	border: 1px solid #ccc;
 	background: $light-grey;
@@ -498,7 +506,7 @@ nav.mainnavi ul li.togglebut a {
 	margin-right: 15px;
 }
 
-.maincolumn h1, h2, h3, summary, p, ul.lis  {
+.maincolumn h1, h2, h3, summary, p, ul.lis, .mainheading h1, h2, h3, summary, aside, p, ul.lis   {
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
@@ -510,6 +518,13 @@ nav.mainnavi ul li.togglebut a {
 	
 }
 
+img.full {
+	// margin-top: 2em;
+	width: 100%;
+	text-align: center;
+
+}
+
  img.folio  {
 	  display: block;
 	  padding: 0px;
@@ -519,6 +534,16 @@ nav.mainnavi ul li.togglebut a {
 	  margin-right: auto;
 	  max-width: 1280px;
   }
+  
+ img.foliosmall  {
+	  display: block;
+	  padding: 0px;
+	  width: calc(100% - 30px);
+	  text-align: center;
+	  margin-left: auto;
+	  margin-right: auto;
+	  max-width: 940px;
+  }  
 
 
 div.folio-bg {
