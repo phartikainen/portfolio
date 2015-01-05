@@ -55,7 +55,7 @@ button,
 input,
 select,
 textarea {
-    color: #444;
+    color: #777;
 }
 
 html {
@@ -227,6 +227,7 @@ summary {
 	@include adjust-font-size-to(16px);
 	@include rhythm(0, 0, 0, 5, 32px);
 	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: italic;
+	color: #444;
 }
 
 p + p {
@@ -296,13 +297,24 @@ u span {
 	color: #fff;
 	padding: 4px 10px 5px 10px;
 	@include border-radius(3px);
-	// display: inline-block;
+	display: inline-block;
 	margin-right: 6px;
+	white-space: nowrap;
+	margin-bottom: 1em;
 	}
 
-.uid { background: #2aa5b5; }
-.uxd { background: #19bd9b; }
-.grd { background: #f2c40f; }
+.grd { background: #f2c600; }
+.prt { background: #f49e00; }
+.ixd { background: #e77f11; }
+.dev { background: #d35600; }
+.cmm { background: #c03b28; }
+.sal { background: #913eaf; }
+.tea { background: #9c55b7; }
+.sto { background: #2a7ebb; }
+.uid { background: #3595de; }
+.uxd { background: #06a086; }
+.con { background: #00be9a; }
+.pro { background: #636363; }
 
 
 /* ==========================================================================
@@ -866,6 +878,11 @@ div.col-right {
 @media only screen and (min-width: 1280px) {
     /* Style adjustments for viewports that meet the condition */
   
+
+  html {
+	  	font-size: $base-font-size * 1.3;
+	  	line-height: $base-line-height * 4 * 1.3;
+  }
     
 main { 
 	// margin: 0 auto;
