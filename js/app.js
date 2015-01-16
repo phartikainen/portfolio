@@ -32,7 +32,7 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
   });
   
   $routeProvider.when('/profile/', {
-  	templateUrl: 'partials/partial_article.html',
+  	templateUrl: 'partials/partial_profile.html',
   	controller: 'MainCtrl'
   });
   
