@@ -868,6 +868,10 @@ div.colwrapper {
 	width: 100%;
 	@include border-radius(4px);
 	
+	u { padding-left: 0;
+		text-align: left;
+	}
+	
 	h2 { margin: 0; padding-top: 0.4em;}
 	
 	.listable {
@@ -891,18 +895,14 @@ div.rivi {
 	
 }
 
-div.rowgroup {
-	display: table-header-group;
-	height: 30px;
-	
-}
+
 
 
 div.col-left {
 	vertical-align: top;
 	display: table-cell;
 	width: 33.33%;
-	padding: 10px 40px 30px 30px;
+	padding: 10px 30px 30px 30px;
 	border-right: 1px solid #ddd;
 	border-top: 1px solid #ddd;
 }
@@ -912,9 +912,19 @@ div.col-right {
 	vertical-align: top;
 	display: table-cell;
 	width: 33.33%;
-	padding: 10px 40px 30px 30px;
+	padding: 10px 30px 30px 30px;
 	border-top: 1px solid #ddd;
 
+}
+
+div.rowgroup {
+	display: table-header-group;
+	height: 30px;
+	background: rgba(240,240,240,0.96);
+	.col-left, .col-right {
+		vertical-align: middle;
+		padding: 10px 10px 10px 30px;
+	}
 }
 
 .firstrow {
