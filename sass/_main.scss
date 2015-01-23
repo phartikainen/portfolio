@@ -11,7 +11,8 @@
    ========================================================================== */
 @import "compass/layout/grid-background";
 @import "compass/typography/vertical_rhythm"; 
-
+@import "compass/css3";
+@import "compass/utilities";
 
  $color: #a0a0a0;
  $link-color: #2aa5b5;
@@ -321,6 +322,8 @@ u span {
    MAIN STYLES
    ========================================================================== */
 
+
+
 header {
 	position: fixed;
 	width: 100%;
@@ -524,7 +527,7 @@ nav.mainnavi ul li.togglebut a {
 	margin-right: 15px;
 }
 
-.maincolumn h1, h2, h3, summary, p, ul.lis, .mainheading h1, h2, h3, summary, aside, p, ul.lis   {
+.maincolumn h1, h2, h3, summary, p, ul.lis, .mainheading h1, h2, h3, summary, aside, p, ul.lis, .colwrapper  {
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
@@ -823,7 +826,6 @@ you can use the generic selector below, but it's slower:
   }
    
 .topimage {
-	background: url('../img/portfolio-curve.png') no-repeat top center;
 	background-size:contain;
 	padding-bottom: 56.5625%;
 }
@@ -873,15 +875,40 @@ div.content-wrapper {
 	
 }
 
+div.colwrapper {
+	display: table;
+	border: 1px solid #ddd;
+	@include border-radius(4px);
+	width: 100%;
+}
+
+div.test {
+	display: table-row;
+	width: 100%;
+}
+
 div.col-left {
-	float: left;
+	display: table-cell;
 	width: 50%;
 }
 
 div.col-right {
-	float: right;
+	display: table-cell;
 	width: 50%;
 }
+
+/*
+.colwrapper {
+	display: table;
+	width: 50%;
+
+}
+
+	.twocolumn {
+		display: table-cell;
+		width: 50%;
+	}
+*/
 
     
 } // end media query
@@ -890,7 +917,6 @@ div.col-right {
     /* Style adjustments for viewports that meet the condition */
   
 .topimage {
-	background: url('../img/portfolio-curve.png') no-repeat top center;
 	height: 724px;
 	padding-bottom: 0px;
 }
@@ -931,6 +957,8 @@ figcaption {
 div.bg-white, div.bg-grey {
 	padding-top: 6em;
 }
+
+
 
 
 
