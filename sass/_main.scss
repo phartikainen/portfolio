@@ -313,7 +313,7 @@ u span {
 .sal { background: #913eaf; }
 .tea { background: #9c55b7; }
 .sto { background: #2a7ebb; }
-.uid { background: #3595de url('/img/testbg.png') no-repeat; background-size: cover; h2 {color: #fff;} }
+.uid { background: #3595de;  h2 {color: #fff;} }
 .uxd { background: #06a086; h2 {color: #fff; }}
 .con { background: #00be9a; }
 .pro { background: #636363; }
@@ -590,6 +590,12 @@ div.folio-bg {
 #betterdoctor {
 		@include background(
 			url('../img/betterdoctor-logo.png') center center / contain no-repeat,
+			radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat );
+}
+
+#mehilainen {
+		@include background(
+			url('../img/mehilainen-logo.png') center center / contain no-repeat,
 			radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat );
 }
 
