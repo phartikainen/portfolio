@@ -878,6 +878,8 @@ div.content-wrapper {
 	margin: 0 auto;	
 }
 
+
+
 div.colwrapper {
 	display: table;
 	border: 1px solid #ddd;
@@ -932,6 +934,15 @@ div.col-right {
 	border-top: 1px solid #ddd;
 
 }
+
+div.port-wrapper {
+	max-width: 1280px;
+	margin: 0 auto;	
+	div.col-right, div.col-left {
+		border: 0px solid #ddd;
+	}
+}
+
 
 div.rowgroup {
 	display: table-header-group;
