@@ -103,6 +103,9 @@ column-break-inside:avoid;
 }
 
 strong { font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 700; font-style: normal;}
+summary {
+	strong { font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 700; font-style: italic;}
+	}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -608,6 +611,12 @@ div.folio-bg {
 #matkahuolto {
 		@include background(
 			url('../img/matkahuolto-logo.png') center center / contain no-repeat,
+			radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat );
+}
+
+#metoday {
+		@include background(
+			url('../img/metoday-logo.png') center center / contain no-repeat,
 			radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat );
 }
 
