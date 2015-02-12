@@ -605,6 +605,13 @@ div.folio-bg {
 			radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat );
 }
 
+#matkahuolto {
+		@include background(
+			url('../img/matkahuolto-logo.png') center center / contain no-repeat,
+			radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat );
+}
+
+
 figcaption {
 	color: $color;
 	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal;
