@@ -37,7 +37,7 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
   });
   
   $routeProvider.when('/contact/', {
-  	templateUrl: 'partials/partial_article.html',
+  	templateUrl: 'partials/partial_contact.html',
   	controller: 'MainCtrl'
   });
   
