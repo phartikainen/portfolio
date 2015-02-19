@@ -644,6 +644,11 @@ div.folio-bg {
 			radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat );
 }
 
+#tellyo {
+		@include background(
+			url('../img/tellyo-logo.png') center center / contain no-repeat,
+			radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat );
+}
 
 
 figcaption {
