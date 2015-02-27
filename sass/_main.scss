@@ -609,7 +609,7 @@ div.front-bg {
 
 #frontlogo {
 		@include background(
-			url('../img/front-header.png') center center / contain no-repeat,
+			url('../img/pekka-home3.jpg') top center / cover no-repeat,
 			radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat );
 }
 
@@ -902,6 +902,84 @@ you can use the generic selector below, but it's slower:
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (max-width: 640px) {
+
+  .hide-for-mobile {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  #slogan1, #slogan2, #slogan3, #slogan4, #testimonial1, #testimonial2, #testimonial3 {
+    padding-top: 66.666666%; // (640px / 960 px) = 66.666666%
+  }
+
+  // COLLAPSE NAVI
+ 
+header {
+    	border-bottom: 1px solid rgba(204, 204, 204, 0.98);
+      background: rgba(240,240,240,0.96);
+
+    .active {
+      background-color: rgba(255, 255, 255, 0.96);
+      border-right: 1px solid rgba(220, 220, 220, 0.98);
+      border-left: 1px solid rgba(220, 220, 220, 0.98);
+      outline: none;
+
+    }
+    .active:before {
+      content: "";
+    }
+  }
+
+  nav.mainnavi {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: block !important;
+   background: transparent;
+    @include box-shadow(rgba(0, 0, 0, 0.0) 0px 0px 10px);
+
+    ul li a {
+      display: block;
+      line-height: 60px;
+      width: 100%;
+      text-align: center;
+      text-indent: 0px;
+     // color: $link-color-inverse;
+
+    }
+
+    ul li {
+      border-bottom: 0px;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      display: inline-block;
+      width: 20%;
+    }
+
+  }
+
+
+  .desklogo {
+    background: url("../img/ph-logo.png") center center no-repeat;
+    background-size: 60px 60px;
+    text-indent: -9000px !important;
+  }
+
+  header + :not(header) {
+   // background: rgba(51, 51, 51, 0.96);
+    padding-top: 60px;
+  }
+
+  #mobilenav {
+    display: none;
+    height: 60px;
+  }
+
+}
+
+
 @media only screen and (min-width: 767px) {	
   html {
 	  	font-size: $base-font-size * 1.14285714285714;
@@ -942,7 +1020,7 @@ div.folio-bg {
 }
 
 div.front-bg {
-	height: 500px;
+	min-height: calc(100vh - 43px);
 	margin-bottom: 2em;
 
 }

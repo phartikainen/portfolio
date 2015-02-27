@@ -60,9 +60,14 @@
 	
 	<nav class="mainnavi" ng-controller="HeaderController">
 	<ul>
-	<li><a ng-class="{ active: isActive('/')}" href="/">Home</a></li>
-	<li><a ng-class="{ active: isActive('/portfolio/')}" href="/portfolio/">Portfolio</a></li>
-	<!--
+		<li><a ng-class="{ active: isActive('/portfolio/')}" href="/portfolio/">Portfolio</a></li><!--
+	--><li><a ng-class="{ active: isActive('/story/')}" href="/story/">Story</a></li><!--
+	--><li class="hide-for-mobile"><a ng-class="{ active: isActive('/')}" href="/" class="desklogo">Home</a></li><!--
+	--><li><a ng-class="{ active: isActive('/profile/')}" href="/profile/">Profile</a></li><!--
+	--><li><a ng-class="{ active: isActive('/contact/')}" href="/contact/">Contact</a></li>
+
+	<!-- testing angular -->
+		<!--
 	<li toggle-button>
 	<button type="button" class="expand" aria-hidden="true"><i aria-hidden="true" class="icon-menu exp"></i>
 	</button>
@@ -75,13 +80,6 @@
 		</ul>
 	
 	</li>-->	
-
-	<li><a ng-class="{ active: isActive('/story/')}" href="/story/">Story</a></li>
-	<li><a ng-class="{ active: isActive('/profile/')}" href="/profile/">Profile</a></li>
-	<li><a ng-class="{ active: isActive('/contact/')}" href="/contact/">Contact</a></li>
-
-	<!-- testing angular -->
-	
 	
    
   <!-- testing ends --> 
