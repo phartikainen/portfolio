@@ -47,6 +47,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 * { -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box; }   
@@ -183,6 +188,11 @@ a {
 }
 
 
+
+
+/* ==========================================================================
+   ANIMATIONS
+   ========================================================================== */
 
 
 
@@ -672,6 +682,13 @@ div.front-bg {
 			url('../img/t-shape16.png') center center / contain no-repeat,
 			radial-gradient(center, ellipse cover,  #668388 0%,#587577 59%) center center / 100% 100% no-repeat );
 }
+
+#story {
+		@include background(
+			url('../img/story.png') center center / contain no-repeat,
+			radial-gradient(center, ellipse cover,  #668388 0%,#587577 59%) center center / 100% 100% no-repeat );
+}
+
 
 
 

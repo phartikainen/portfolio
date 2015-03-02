@@ -27,7 +27,7 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
   });
 	
   $routeProvider.when('/story/', {
-  	templateUrl: 'partials/partial_story_alt.html',
+  	templateUrl: 'partials/partial_story2.html',
   	controller: 'MainCtrl'
   });
   
