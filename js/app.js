@@ -13,7 +13,6 @@ var myApp = angular.module('myApp', [
   'myApp.controllers',
   'angular-gestures',
   'angular-carousel',
-
   'twitter.timeline',
 ]).
 config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {

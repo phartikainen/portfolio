@@ -744,6 +744,10 @@ div.end {
 }
 
 
+
+
+
+
 .vimeo { max-width: 1280px; margin-left: auto; margin-right: auto; }
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; }
 .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
@@ -944,6 +948,7 @@ you can use the generic selector below, but it's slower:
 
 @media only screen and (max-width: 640px) {
 
+	
   .hide-for-mobile {
     display: none !important;
   }
@@ -954,6 +959,10 @@ you can use the generic selector below, but it's slower:
     padding-top: 66.666666%; // (640px / 960 px) = 66.666666%
   }
   
+  .mover {
+			clear:both;
+		margin-top: -3em;
+}
   	.storyheading {
 	padding-left: 0;
 	text-align: center;

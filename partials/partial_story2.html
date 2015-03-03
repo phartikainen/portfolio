@@ -1,5 +1,6 @@
 <!--		<div class="topimage" id="story"></div> -->
 
+        <script src="/js/vertical-timeline.js"></script>
 
 <div style="background: #e9f0f5;">
 <div class="storyheading">
@@ -12,13 +13,13 @@
 				<img src="/img/cd-icon-picture.svg" alt="Picture">
 			</div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
+			<div class="cd-timeline-content"><span class="cd-date">2000–2002</span>
 				<h2>Starting the studies</h2>
 				<img src="/img/hse.jpg" alt="Helsinki School of Economics" />
 				<p first-words>I started studies in Helsinki School of Economics in 2000. After completing the basic undergraduate studies successfully I wanted to do something else for a while and got chosen as web developer in the Student Union of Helsinki School of Economics. I started developing websites as a hobby, my first site was a communication channel and meetup place for my friends.</p>
 
 		<a href="" class="cd-read-more" ng-model="collapsed" ng-click="collapsed=!collapsed"><span ng-hide="collapsed">Read more...</span></a>
-		<div class="animate-hide" ng-show="collapsed" style="clear:both;">
+		<div class="mover animate-hide" ng-show="collapsed">
 	    <p>I am description for the above title, which was collapsed by default</p>
 		</div>		
 				
@@ -27,7 +28,7 @@
 <div class="box on" ng-show="toggle" ng-animate="'box'">On</div> -->
 
 
-				<span class="cd-date">2000–2002</span>
+				
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
@@ -340,5 +341,3 @@
 </ul>
 <br />
 </div>
-
-
