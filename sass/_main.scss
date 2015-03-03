@@ -298,7 +298,7 @@ p {
 }
 
 u {
-	padding-left: 1em;
+	padding-left: 0em;
 	text-decoration: none;
 	text-transform: lowercase;
 	font-variant: small-caps;
@@ -557,6 +557,19 @@ nav.mainnavi ul li.togglebut a {
 	margin-left: 15px;
 	margin-right: 15px;
 }
+
+.cd-timeline-content ul.lis li {
+	list-style: disc;
+	overflow-x: visible;
+	height: auto;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 
 .maincolumn h1, h2, h3, summary, p, ul.lis, .mainheading h1, h2, h3, summary, aside, p, ul.lis, .colwrapper  {
     max-width: 940px;

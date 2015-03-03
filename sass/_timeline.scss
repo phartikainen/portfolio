@@ -202,13 +202,21 @@ Main components
 	.cd-read-more, .cd-date {
 		display: inline-block;
 	}
-
+	
+	p:first-child {
+		padding-bottom: 0;
+	}
+	
 	p {
 		margin: 1em 0;
-		line-height: 1.6;
+	} 
+	
+	p+p {text-indent: 0;
 	}
 
-
+	img {
+				padding-bottom: 1em;
+	}
 
 	.cd-read-more {
 		// margin-top: 0.5em;
@@ -341,7 +349,7 @@ font-weight: 300;
 			width: 100%;
 			left: 122%;
 			top: 0px;
-			line-height: 3em;
+			line-height: 3.2em;
 		}
 
 			p {text-align: justify; }
