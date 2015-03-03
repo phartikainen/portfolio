@@ -5,6 +5,7 @@
 var myApp = angular.module('myApp', [
   'ngRoute',
   'ngTouch',
+  'ngAnimate',
   'myApp.filters',
   'myApp.services',
   'myApp.factories',
@@ -12,6 +13,7 @@ var myApp = angular.module('myApp', [
   'myApp.controllers',
   'angular-gestures',
   'angular-carousel',
+
   'twitter.timeline',
 ]).
 config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {

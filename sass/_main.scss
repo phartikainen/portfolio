@@ -728,6 +728,22 @@ div.end {
 	padding-bottom: 4em;
 }
 
+.storyheading {
+	padding-left: 15px;
+	// text-align: center;
+	
+	 h1 { margin-top: 0;}
+	 aside {margin-top: 0; padding-top: 1em;}
+}
+
+.animate-hide.ng-hide-remove {
+    -webkit-animation: fadeIn 0.6s;
+    animation: fadeIn 0.6s;
+    transition: all 0.4s linear;
+    opacity: 0;
+}
+
+
 .vimeo { max-width: 1280px; margin-left: auto; margin-right: auto; }
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; }
 .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
@@ -937,6 +953,14 @@ you can use the generic selector below, but it's slower:
   #slogan1, #slogan2, #slogan3, #slogan4, #testimonial1, #testimonial2, #testimonial3 {
     padding-top: 66.666666%; // (640px / 960 px) = 66.666666%
   }
+  
+  	.storyheading {
+	padding-left: 0;
+	text-align: center;
+	
+	 h1 { margin-top: 0;}
+	 aside {margin-top: 0; padding-top: 1em;}
+}
 
   // COLLAPSE NAVI
  
@@ -1142,6 +1166,12 @@ div.rowgroup {
 
 @media only screen and (min-width: 1280px) {
     /* Style adjustments for viewports that meet the condition */
+  
+  	.storyheading {
+
+	
+	 aside {padding-top: 2em;}
+}
   
 .topimage {
 	height: 724px;

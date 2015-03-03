@@ -167,6 +167,11 @@ Main components
 	}
 }
 
+
+
+
+
+
 .cd-timeline-content {
 	position: relative;
 	margin-left: 60px;
@@ -188,16 +193,35 @@ Main components
 		line-height: 1.6;
 	}
 
+
+
 	.cd-read-more {
+		margin-top: 0.5em;
 		float: right;
-		padding: .8em 1em;
-		background: $link;
-		color: $color-3;
+		text-align: center;
+		// width: 120px;
+		line-height: 44px;
+		// padding: .4em 1em;
+		background: #efefef;
+		color: #4FB3C0;
 		@include border-radius;
+		font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B';
+		font-weight: 700;
+		font-style: normal;
+		text-transform: uppercase;
+		font-size: 15px;
+		// font-variant: small-caps;
+		outline: none;
+		
+		span {
+			padding-left: 1em;
+		padding-right: 1em;
+		}
 
 		.no-touch &:hover {
-			background-color: lighten($link, 5%);
+			background-color: darken(#efefef, 3%);
 		}
+
 	}
 
 	.cd-date {
