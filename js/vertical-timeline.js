@@ -1,5 +1,7 @@
 jQuery(document).ready(function($){
+	if (!Modernizr.touch) {
 	var $timeline_block = $('.cd-timeline-block:not(:first)');
+
 
 	//hide timeline blocks which are outside the viewport
 	$timeline_block.each(function(){
@@ -16,4 +18,5 @@ jQuery(document).ready(function($){
 			}
 		});
 	});
+	}
 });
