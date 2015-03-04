@@ -22,22 +22,16 @@
 	margin-bottom: 10px !important;
 }
 
-
 .e-entry-title {
 	margin-bottom: 10px !important;
-	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: italic;
-	line-height: 36px !important;
-	font-size: 24px !important;
-	color: #fff;
-}
-
-.e-entry-title a {
-	color: #2aa5b5 !important;	
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: normal;
+	line-height: 24px !important;
+	font-size: 14px !important;
 }
 
 .var-chromeless .tweet {
 	color: #727272;
-	border-bottom: 0px solid #E9E9EB !important;
+	border-bottom: 1px solid #E9E9EB;
 	margin-bottom: 10px;
 
 }
@@ -48,7 +42,6 @@
 
 .header .avatar {
 	border-radius: 25px !important;
-	display: none;
 }
 
 .p-name {
@@ -57,11 +50,10 @@ font-weight: 700 !important;
 font-style: normal !important;
 font-size: 16px !important;
 line-height: 24px !important;
-display: none;
 }
 
 .expand { 
-	color: #fff !important;
+	color: #a0a0a0 !important;
 	font-size: 10px !important;
 	letter-spacing: 1px;
 	text-transform: uppercase !important;

@@ -18,7 +18,7 @@ var myApp = angular.module('myApp', [
 config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
 	$routeProvider.when('/', {
-  	templateUrl: 'partials/partial_index.html',
+  	templateUrl: 'partials/partial_index_new.html',
   	controller: 'MainCtrl'
   });
   

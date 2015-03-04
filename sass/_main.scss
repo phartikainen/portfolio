@@ -696,6 +696,12 @@ div.front-bg {
 			radial-gradient(center, ellipse cover,  #668388 0%,#587577 59%) center center / 100% 100% no-repeat );
 }
 
+#contact {
+		@include background(
+			url('../img/pekka-home3.jpg') center 40% / cover no-repeat,
+			radial-gradient(center, ellipse cover,  #668388 0%,#587577 59%) center center / 100% 100% no-repeat );
+}
+
 #story {
 		@include background(
 			url('../img/story.png') center center / contain no-repeat,
@@ -754,6 +760,7 @@ div.end {
 
 .storyheading {
 	padding-left: 15px;
+	padding-right: 15px;
 	// text-align: center;
 	
 	 h1 { margin-top: 0;}
@@ -988,7 +995,7 @@ you can use the generic selector below, but it's slower:
 		margin-top: -3em;
 }
   	.storyheading {
-	padding-left: 0;
+	// padding-left: 0;
 	text-align: center;
 	
 	 h1 { margin-top: 0;}
@@ -1101,9 +1108,11 @@ div.folio-bg {
 }
 
 div.front-bg {
-	min-height: calc(100vh - 43px);
-	margin-bottom: 2em;
-
+	// min-height: calc(100vh - 43px);
+	min-height: 100vh;
+	margin-bottom: 0em;
+	margin-top: -60px;
+	border-bottom: 1px solid #000;
 }
 
 
@@ -1198,6 +1207,18 @@ div.rowgroup {
 } // end media query
 
 @media only screen and (min-width: 1280px) {
+	
+	#speech-bubble {
+		position: relative;
+		top: 15%;
+		left: 5%;
+		width: 35%;
+		background: rgba(255, 255, 255, 0.5);
+		@include border-radius(6px);
+		padding: 2em 2em 2em 0em;
+		
+	}
+	
     /* Style adjustments for viewports that meet the condition */
   
   	.storyheading {
@@ -1226,7 +1247,7 @@ div.folio-bg {
 }
 
 div.front-bg {
-	margin-bottom: 4em;
+	// margin-bottom: 4em;
 }
 
 
