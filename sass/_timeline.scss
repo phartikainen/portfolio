@@ -118,17 +118,22 @@ Main components
 		margin-top: -12px;
 	}
 
-	&.cd-picture {
-		background: $color-4;
+	&.cd-education {
+		background: #4FB3C0;
 	}
 
-	&.cd-movie {
-		background: $color-2;
+	&.cd-star {
+		background: #FFD700;
 	}
 
-	&.cd-location {
-		background: $color-5;
+	&.cd-work {
+		background: #913eaf;
 	}
+	
+	&.cd-plane {
+		background: #00be9a;
+	}
+	
 
 		@include MQ(M) {
 		width: 40px;
