@@ -214,10 +214,14 @@ Main components
 	p+p {text-indent: 0;
 	}
 
-	img {
-				padding-bottom: 1em;
+	summary {
+				padding-top: 1em;
 	}
-
+	
+	figcaption+img+figcaption {
+		margin-top: 1em;
+	}
+	
 	.cd-read-more {
 		// margin-top: 0.5em;
 		// float: right;
