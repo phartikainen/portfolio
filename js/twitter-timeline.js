@@ -22,6 +22,7 @@ angular.module('twitter.timeline', [])
 					.addClass('twitter-timeline');
 
 				function render() {
+
 					var body = $('.twitter-timeline').contents().find('body');
 
 					if (scope.cssUrl) {
