@@ -356,6 +356,9 @@ header + :not(header) {
 img {  
 max-width: 100%;
 height: auto;
+
+    -webkit-user-drag: none;
+
 } 
 
 img.normi {
@@ -793,7 +796,7 @@ div.end {
 	display: block;
 	position:absolute;
 //	margin-left: 5%;
-	bottom: 0px;
+	bottom: 20px;
 	width: 100%;
 	// visibility: hidden;
 
@@ -803,7 +806,7 @@ div.end {
 		width: 100%;
 		// padding: 50px;
 		color: #fff;
-		background: rgba(0,0,0, 0.2);
+		background: rgba(0,0,0, 0.6);
 		padding-bottom: 20px;
 		padding-top: 20px;
 		
