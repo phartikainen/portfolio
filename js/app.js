@@ -20,7 +20,7 @@ config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($ro
 	
 	RouteDataProvider.applyConfig({
     bodyStyle: {
-      'background-color': '#fff'
+      'background': 'transparent'
     }
   });
   
@@ -39,7 +39,7 @@ config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($ro
   $routeProvider.when('/portfolio/', {
 	  RouteData: {
       bodyStyle: {
-        'background': '#fff'
+        'background': 'transparent'
       }
     },
   	templateUrl: 'partials/partial1.html',
@@ -49,7 +49,7 @@ config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($ro
   $routeProvider.when('/story/', {
 	  RouteData: {
       bodyStyle: {
-        'background': '#fff'
+        'background': 'transparent'
       }
     },
   	templateUrl: 'partials/partial_story2.html',
@@ -59,7 +59,7 @@ config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($ro
   $routeProvider.when('/profile/', {
 	  RouteData: {
       bodyStyle: {
-        'background': '#fff'
+        'background': 'transparent'
       }
     },
   	templateUrl: 'partials/partial_profile.html',
@@ -69,7 +69,7 @@ config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($ro
   $routeProvider.when('/contact/', {
 	  RouteData: {
       bodyStyle: {
-        'background': '#fff'
+        'background': 'transparent'
       }
     },
   	templateUrl: 'partials/partial_contact.html',
@@ -79,7 +79,7 @@ config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($ro
   $routeProvider.when('/view2/', {
 	  RouteData: {
       bodyStyle: {
-        'background': '#fff'
+        'background': 'transparent'
       }
     },
   	templateUrl: 'partials/partial2.html',
@@ -89,7 +89,7 @@ config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($ro
   $routeProvider.when('/view3/', {
 	  RouteData: {
       bodyStyle: {
-        'background': '#fff'
+        'background': 'transparent'
       }
     },
   	templateUrl: 'partials/partial2.html',
