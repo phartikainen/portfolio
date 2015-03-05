@@ -33,7 +33,7 @@ angular.module('twitter.timeline', [])
 							setTimeout(setHeight, 100);
 						} else {
 							body.find('.stream').addClass('stream-new').removeClass('stream').css('height', 'auto');
-							$('.twitter-timeline').css('height', (body.height() + 20) + 'px');
+							$('.twitter-timeline').css('height', (body.height() + 30) + 'px');
 						}
 					}
 
