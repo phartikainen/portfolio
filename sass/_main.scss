@@ -68,7 +68,7 @@ html {
 	@include adjust-leading-to($set-leading);
 	font-size: $base-font-size;
 	// height: 100%;
-//	height: 100%;
+	height: 100%;
 }
 
 
@@ -80,7 +80,7 @@ body {
 	// @include grid-background;
 	// overflow-x: hidden;
 	// min-height: 600px !important;
-	//height: 100%;
+	height: 100%;
 }
 
 .maincolumn, .mainheading {
