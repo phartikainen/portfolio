@@ -1211,10 +1211,10 @@ div.rowgroup {
 
 #foliolink {
 	display: block;
-	position:relative;
+	position:absolute;
 	margin-left: 5%;
-	top: 20%;
-	visibility: hidden;
+	bottom: 20%;
+	// visibility: hidden;
 
 	
 	a {
@@ -1242,7 +1242,7 @@ div.rowgroup {
 	
 	#speech-bubble {
 		position: relative;
-		top: 10%;
+		top: 13%;
 		left: 5%;
 		width: 35%;
 		// background: rgba(255, 255, 255, 0.5);
