@@ -31,9 +31,42 @@
 	color: #fff;
 }
 
-.e-entry-title a {
-	color: #2aa5b5 !important;	
+
+.e-entry-title a, .e-entry-title a.hashtag b {
+	color: #2A8894 !important;
+	/* text-decoration: underline; */
+	font-style: italic !important;
 }
+
+span.p-nickname, .header a, time {
+	color: #2A8894 !important;	
+}
+
+a.link {
+/*	word-wrap: break-word !important;
+	white-space: normal !important; */
+	display: inline-block !important;;
+    /* width: 180px !important;; */
+    white-space: nowrap !important;;
+    text-overflow: ellipsis !important;
+}
+
+
+span.p-nickname, time {
+	font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B';
+font-weight: 300;
+font-style: normal;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 13px;
+padding-bottom: 1em;
+display: block;
+}
+
+a.profile:hover {
+	text-decoration: underline !important;
+}
+
 
 .var-chromeless .tweet {
 	color: #727272;
@@ -66,17 +99,21 @@ display: none;
 	letter-spacing: 1px;
 	text-transform: uppercase !important;
 	}
-
+/*
 time { text-transform: uppercase !important;
-	color: #a0a0a0 !important;
 letter-spacing: 1px;
 font-size: 10px !important;
 	
 }
+*/
 
-span.p-nickname {
-	color: #2aa5b5 !important;
+a.customisable-highlight i { 
+	display: none !important 
 }
+
+
+
+
 
 @media only screen and (min-width: 541px) {
 
