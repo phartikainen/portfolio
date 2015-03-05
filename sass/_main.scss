@@ -1207,17 +1207,44 @@ div.rowgroup {
 } // end media query
 
 @media only screen and (min-width: 1280px) {
+
+
+#foliolink {
+	display: block;
+	position:relative;
+	left: 5%;
+	top: 20%;
+	visibility: hidden;
+	font-size: em(30px);
+	font-style: italic;
+	
+	
+	a {
+		// display: block;
+		padding: 50px;
+		color: #fff;
+		// background: rgba(0,0,0, 0.2);
+		@include border-radius(3px);
+
+		text-align: center;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+}
 	
 	#speech-bubble {
 		position: relative;
-		top: 18%;
+		top: 10%;
 		left: 5%;
 		width: 35%;
-		background: rgba(255, 255, 255, 0.5);
+		// background: rgba(255, 255, 255, 0.5);
 		@include border-radius(6px);
 		padding: 2em 2em 0em 0em;
 		
 	}
+
+	
 	#speech-bubble::before {
 		content: '';
 		position: absolute;
@@ -1228,7 +1255,7 @@ div.rowgroup {
 		border: 24px solid #fff;
 		left: 100%;
 		border-color: transparent;
-		border-left-color: rgba(255, 255, 255, 0.5);
+		// border-left-color: rgba(255, 255, 255, 0.5);
 		// @include border-radius(4px);
 		
 	}
