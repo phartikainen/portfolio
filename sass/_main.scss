@@ -346,8 +346,10 @@ header {
 }
 
 header + :not(header) {
- padding-top: 44px;
+ 	padding-top: 44px;
 }
+
+
 
 img {  
 max-width: 100%;
@@ -624,7 +626,8 @@ div.front-bg {
 	padding-right: 0;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 400px;
+	height: 70vh;
+	overflow-y: auto;
 	border-bottom: 1px solid #e4e4e4;
 
 }
@@ -782,6 +785,44 @@ div.end {
 .vimeo { max-width: 1280px; margin-left: auto; margin-right: auto; }
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; }
 .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+#foliolink {
+	display: block;
+	position:absolute;
+//	margin-left: 5%;
+	bottom: 0px;
+	width: 100%;
+	// visibility: hidden;
+
+	
+	a {
+		display: block;
+		width: 100%;
+		// padding: 50px;
+		color: #fff;
+		background: rgba(0,0,0, 0.2);
+		padding-bottom: 20px;
+		padding-top: 20px;
+		
+		@include border-radius(3px);
+		font-size: em(21px);
+		font-style: italic;
+		text-align: center;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	
+	p {
+		display: none;
+		padding-top: 20px;
+		padding-left: 50px;
+		color: rgba(255, 255, 255, 0.5);
+		max-width: none;		
+	}
+}
+
 
 /* ==========================================================================
    Helper classes
@@ -971,6 +1012,10 @@ you can use the generic selector below, but it's slower:
 	content: "» ";
 }
 
+#speech-bubble {
+	text-align: center;
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -986,6 +1031,17 @@ you can use the generic selector below, but it's slower:
 }
 
 @media only screen and (min-width: 640px) {
+	
+
+	
+	div.front-bg {
+	min-height: calc(100vh - 60px);
+	
+	margin-bottom: 0em;
+	border-bottom: 1px solid #000;
+}
+
+	
   #slogan1, #slogan2, #slogan3, #slogan4, #testimonial1, #testimonial2, #testimonial3 {
     padding-top: 66.666666%; // (640px / 960 px) = 66.666666%
   }
@@ -1069,6 +1125,73 @@ header {
 
 
 @media only screen and (min-width: 767px) {	
+		#foliolink {
+	display: block;
+	position:absolute;
+	margin-left: 3%;
+	top: 50%;
+	width: auto;
+	// visibility: hidden;
+
+	
+	a {
+		// display: block;
+		padding: 20px 20px 20px 20px;
+		color: #fff;
+		background: none;
+		@include border-radius(3px);
+		font-size: em(30px);
+		font-style: italic;
+		text-align: center;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	
+	p {
+		padding-top: 20px;
+		padding-left: 50px;
+		color: rgba(255, 255, 255, 0.5);
+		max-width: none;
+		display: inline;
+		
+	}
+}
+	
+	#speech-bubble {
+		position: relative;
+		top: 40px;
+		left: 5%;
+		width: 90%;
+		min-width: 380px;
+		@include border-radius(6px);
+		padding: 1em 1em 0em 1em;
+		text-align: left;
+		background: rgba(255, 255, 255, 0.5);
+		
+	}
+	
+	#twitter-feed {
+		/* display: none !important */
+	}
+
+	
+	#speech-bubble::before {
+		  content: '';
+  position: absolute;
+  bottom: -48px;
+  left: 30;
+  height: 0;
+  width: 0;
+  left: 31%;
+  border-color: transparent;
+  -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+		
+	}	
+
+	
   html {
 	  	font-size: $base-font-size * 1.14285714285714;
 	  	line-height: $base-line-height * 4 * 1.14285714285714;
@@ -1107,13 +1230,7 @@ div.folio-bg {
 
 }
 
-div.front-bg {
-	// min-height: calc(100vh - 43px);
-	min-height: 100vh;
-	margin-bottom: 0em;
-	margin-top: -60px;
-	border-bottom: 1px solid #000;
-}
+
 
 
 div.content-wrapper {
@@ -1207,21 +1324,21 @@ div.rowgroup {
 } // end media query
 
 @media only screen and (min-width: 1280px) {
-
-
-#foliolink {
+		#foliolink {
 	display: block;
 	position:absolute;
-	margin-left: 5%;
+	margin-left: 4%;
 	bottom: 20%;
+	top: auto;
+	width: auto;
 	// visibility: hidden;
 
 	
 	a {
 		// display: block;
-		padding: 50px;
+		padding: 50px 50px 20px 50px;
 		color: #fff;
-		// background: rgba(0,0,0, 0.2);
+		background: none;
 		@include border-radius(3px);
 		font-size: em(30px);
 		font-style: italic;
@@ -1236,36 +1353,43 @@ div.rowgroup {
 		padding-left: 50px;
 		color: rgba(255, 255, 255, 0.5);
 		max-width: none;
+		display: inline;
 		
 	}
 }
-	
+
 	#speech-bubble {
 		position: relative;
-		top: 13%;
+		top: 15%;
 		left: 5%;
-		width: 35%;
-		// background: rgba(255, 255, 255, 0.5);
+		width: 36%;
+		min-width: 380px;
+		background: rgba(255, 255, 255, 0.5);
 		@include border-radius(6px);
-		padding: 2em 2em 0em 0em;
+		padding: 1em 2em 0em 1em;
+		text-align: left;
 		
 	}
 
 	
 	#speech-bubble::before {
-		content: '';
-		position: absolute;
-		bottom: 30px;
-		right: 100%;
-		height: 0;
-		width: 0;
-		border: 24px solid #fff;
-		left: 100%;
-		border-color: transparent;
-		// border-left-color: rgba(255, 255, 255, 0.5);
-		// @include border-radius(4px);
+		  content: '';
+  position: absolute;
+  bottom: 30px;
+  right: 100%;
+  height: 0;
+  width: 0;
+  border: 24px solid #fff;
+  left: 100%;
+  border-color: transparent;
+  -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
 		
-	}
+	}	
+
+
+
     /* Style adjustments for viewports that meet the condition */
   
   	.storyheading {

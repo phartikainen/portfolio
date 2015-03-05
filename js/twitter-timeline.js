@@ -33,15 +33,11 @@ angular.module('twitter.timeline', [])
 							setTimeout(setHeight, 100);
 						} else {
 							body.find('.stream').addClass('stream-new').removeClass('stream').css('height', 'auto');
-							$('.twitter-timeline').css('height', (body.height() + 30) + 'px');
+							$('.twitter-timeline').css('height', (body.height() + 10) + 'px');
 							setTimeout(function() {
-      // Do something after 5 seconds
-							//$('#speech-bubble').css('display', 'none');
-							$('#speech-bubble').css('background', 'rgba(255,255,255,0.5)');
-							$('#speech-bubble').css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 300);
-							$('head').append('<style>#speech-bubble:before{border-left-color: rgba(255, 255, 255, 0.5);}</style>');
-							// $('#foliolink').css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 300);
-
+								// Do something after
+									$('#speech-bubble').css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 300);
+									$('head').append('<style>#speech-bubble:before{border-left-color: rgba(255, 255, 255, 0.5);}</style>');
 							}, 100);
 
 						}
