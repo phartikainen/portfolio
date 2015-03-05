@@ -1212,12 +1212,10 @@ div.rowgroup {
 #foliolink {
 	display: block;
 	position:relative;
-	left: 5%;
+	margin-left: 5%;
 	top: 20%;
 	visibility: hidden;
-	font-size: em(30px);
-	font-style: italic;
-	
+
 	
 	a {
 		// display: block;
@@ -1225,11 +1223,20 @@ div.rowgroup {
 		color: #fff;
 		// background: rgba(0,0,0, 0.2);
 		@include border-radius(3px);
-
+		font-size: em(30px);
+		font-style: italic;
 		text-align: center;
 	}
 	a:hover {
 		text-decoration: underline;
+	}
+	
+	p {
+		padding-top: 20px;
+		padding-left: 50px;
+		color: rgba(255, 255, 255, 0.5);
+		max-width: none;
+		
 	}
 }
 	
