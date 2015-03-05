@@ -4,6 +4,7 @@
 // Declare app level module which depends on filters, and services
 var myApp = angular.module('myApp', [
   'ngRoute',
+  'RouteData',
   'ngTouch',
   'ngAnimate',
   'myApp.filters',
@@ -15,39 +16,82 @@ var myApp = angular.module('myApp', [
   'angular-carousel',
   'twitter.timeline',
 ]).
-config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($routeProvider, RouteDataProvider, $locationProvider) {
+	
+	RouteDataProvider.applyConfig({
+    bodyStyle: {
+      'background-color': '#fff'
+    }
+  });
+  
+  RouteDataProvider.hookToRootScope(true);
 
 	$routeProvider.when('/', {
+		RouteData: {
+      bodyStyle: {
+        'background': 'url("../img/pekka-home3.jpg") top center / cover no-repeat'
+      }
+    },
   	templateUrl: 'partials/partial_index_new.html',
   	controller: 'MainCtrl'
   });
   
   $routeProvider.when('/portfolio/', {
+	  RouteData: {
+      bodyStyle: {
+        'background': '#fff'
+      }
+    },
   	templateUrl: 'partials/partial1.html',
   	controller: 'MainCtrl'
   });
 	
   $routeProvider.when('/story/', {
+	  RouteData: {
+      bodyStyle: {
+        'background': '#fff'
+      }
+    },
   	templateUrl: 'partials/partial_story2.html',
   	controller: 'MainCtrl'
   });
   
   $routeProvider.when('/profile/', {
+	  RouteData: {
+      bodyStyle: {
+        'background': '#fff'
+      }
+    },
   	templateUrl: 'partials/partial_profile.html',
   	controller: 'MainCtrl'
   });
   
   $routeProvider.when('/contact/', {
+	  RouteData: {
+      bodyStyle: {
+        'background': '#fff'
+      }
+    },
   	templateUrl: 'partials/partial_contact.html',
   	controller: 'MainCtrl'
   });
   
   $routeProvider.when('/view2/', {
+	  RouteData: {
+      bodyStyle: {
+        'background': '#fff'
+      }
+    },
   	templateUrl: 'partials/partial2.html',
   	controller: 'MyCtrl2'
   });
   
   $routeProvider.when('/view3/', {
+	  RouteData: {
+      bodyStyle: {
+        'background': '#fff'
+      }
+    },
   	templateUrl: 'partials/partial2.html',
   	controller: 'MyCtrl2'
   });

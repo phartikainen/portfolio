@@ -68,6 +68,7 @@ html {
 	@include adjust-leading-to($set-leading);
 	font-size: $base-font-size;
 	// height: 100%;
+	height: 100%;
 }
 
 
@@ -79,6 +80,7 @@ body {
 	// @include grid-background;
 	// overflow-x: hidden;
 	// min-height: 600px !important;
+	height: 100%;
 }
 
 .maincolumn, .mainheading {
@@ -616,18 +618,17 @@ div.folio-bg {
 	padding-right: 0;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 200px;
 	border-bottom: 1px solid #e4e4e4;
+	height: 200px;
 
 }
 
 div.front-bg {
-	position: fixed;
 	padding-left: 0;
 	padding-right: 0;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 100%;
+//	height: 100vh;
 	overflow-y: auto;
 	border-bottom: 0px solid #e4e4e4;
 
@@ -635,9 +636,9 @@ div.front-bg {
 
 
 #frontlogo {
-		@include background(
+	/*	@include background(
 			url('../img/pekka-home3.jpg') top center / cover no-repeat,
-			radial-gradient(center, ellipse cover,  #000 0%,#000 59%) center center / 100% 100% no-repeat );
+			radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat ); */
 }
 
 #betterdoctor {
@@ -792,7 +793,7 @@ div.end {
 	display: block;
 	position:absolute;
 //	margin-left: 5%;
-	bottom: 60px;
+	bottom: 0px;
 	width: 100%;
 	// visibility: hidden;
 

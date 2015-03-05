@@ -33,7 +33,7 @@
         
         
     </head>
-    <body fast-click ng-controller="MainCtrl">
+    <body fast-click ng-controller="MainCtrl" ng-style="RouteData.get('bodyStyle')">
    
 <!-- CONTENT -->
 <header>
@@ -118,6 +118,7 @@
 				<script src="/js/directives.js"></script>
 				<script src="/js/angular-gestures.js"></script>
 				<script src="/js/angular-carousel.js"></script>
+				<script src="/js/route-data.js"></script>
 				<script src="/js/twitter-timeline.js"></script>
 				<!--<script src="/js/placeholders.js"></script>-->
 				
