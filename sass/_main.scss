@@ -1172,7 +1172,7 @@ header {
 		@include border-radius(6px);
 		padding: 1em 1em 0em 1em;
 		text-align: left;
-		background: rgba(255, 255, 255, 0.5);
+		background: rgba(255, 255, 255, 0.2);
 		
 	}
 	
@@ -1369,7 +1369,7 @@ div.rowgroup {
 		left: 5%;
 		width: 36%;
 		min-width: 380px;
-		background: rgba(255, 255, 255, 0.5);
+		background: rgba(255, 255, 255, 0.2);
 		@include border-radius(6px);
 		padding: 1em 2em 0em 1em;
 		text-align: left;

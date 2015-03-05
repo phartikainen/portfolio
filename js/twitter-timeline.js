@@ -38,7 +38,7 @@ angular.module('twitter.timeline', [])
 							setTimeout(function() {
 								// Do something after
 									$('#speech-bubble').css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 300);
-									$('head').append('<style>#speech-bubble:before{border-left-color: rgba(255, 255, 255, 0.5);}</style>');
+									$('head').append('<style>#speech-bubble:before{border-left-color: rgba(255, 255, 255, 0.2);}</style>');
 							}, 100);
 
 						}
