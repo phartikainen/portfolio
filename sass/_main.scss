@@ -360,11 +360,15 @@ header {
 	width: 100%;
 	z-index: 9999;
 }
-
+/* 
 header + :not(header) {
  	padding-top: 44px;
 }
+*/
 
+.spacehead {
+	height: 44px;
+}
 
 
 img {  
@@ -634,7 +638,7 @@ div.folio-bg {
 	padding-right: 0;
 	background-repeat: no-repeat;
 	width: 100%;
-	border-bottom: 1px solid #e4e4e4;
+	// border-bottom: 1px solid #e4e4e4;
 	height: 200px;
 
 }
@@ -1053,10 +1057,10 @@ you can use the generic selector below, but it's slower:
 
 	
 	div.front-bg {
-	min-height: calc(100vh - 60px);
+	// min-height: calc(100vh -);
 	
 	margin-bottom: 0em;
-	border-bottom: 1px solid #000;
+	// border-bottom: 1px solid #000;
 }
 
 	
@@ -1131,7 +1135,11 @@ header {
 
   header + :not(header) {
    // background: rgba(51, 51, 51, 0.96);
-    padding-top: 60px;
+  //  padding-top: 60px;
+  }
+  
+  .spacehead {
+	height: 60px;
   }
 
   #mobilenav {
