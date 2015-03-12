@@ -3,9 +3,9 @@
 /* Controllers */
 
 angular.module('myApp.controllers', [])
-  .controller('MyCtrl1', [function() {
 
-  }])
+
+
   
   .controller('HeaderController', ['$scope', '$location', function($scope, $location) {
 		$scope.isActive = function (viewLocation) { 
@@ -17,7 +17,37 @@ angular.module('myApp.controllers', [])
 
   
   
-  .controller('MainCtrl', ['$scope',function($scope) {
+  .controller('MainCtrl', ['$scope', 'logMsg', function ($scope, logMsg) {
+	  
+	  
+	$scope.logs = [];
+
+   
+  $scope.test6 = function(event, delta, deltaX, deltaY){
+     var msg = logMsg.build('test6', delta, deltaX, deltaY);
+    /* if(msg !== '') {
+       $scope.logs.push(msg);
+     }
+		 */
+		 
+		 var muutos = event.deltaY;
+		 
+		 if (!Modernizr.touch) { 
+		 		 
+		 if (muutos > 0) {
+			 	$('.rn-carousel-controls').css({
+			 		'display': "none",
+  			});	
+  		}
+  		
+  		if (muutos < 0) {
+			 	$('.rn-carousel-controls').css({
+			 		'display': "block",
+  			});	
+  		}		
+			}
+   };
+  
   
   //  $scope.slideIndex2  = 1;
    
@@ -45,7 +75,7 @@ angular.module('myApp.controllers', [])
   
 	}	
 
-}
+};
 
  $scope.draggeddown = function($event) {
   // console.log("draggeddown");
@@ -62,7 +92,7 @@ angular.module('myApp.controllers', [])
 	
 	}
 
-}
+};
 
  
 	

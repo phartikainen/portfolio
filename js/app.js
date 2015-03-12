@@ -14,6 +14,7 @@ var myApp = angular.module('myApp', [
   'myApp.controllers',
   'angular-gestures',
   'angular-carousel',
+  'monospaced.mousewheel',
   'twitter.timeline',
 ]).
 config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($routeProvider, RouteDataProvider, $locationProvider) {

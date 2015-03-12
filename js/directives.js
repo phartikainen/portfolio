@@ -23,8 +23,20 @@ directives.directive('fastClick', [ function() {
 }]);
 
 
+// SCROLL
+
+directives.directive('scrollDown', [function($parse){
+      return function(scope, element) {
+        element[0].parentNode.scrollTop = 999999;
+      };
+    }]);
 
 
+directives.directive('userAgent', [function(){
+      return function(scope) {
+        scope.ua = window.navigator.userAgent;
+      };
+}]);
 
 
 
@@ -332,4 +344,6 @@ directives.directive('firstWords', [ function() {
 		
   }};
 }]);
+
+
 
