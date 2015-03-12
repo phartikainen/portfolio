@@ -268,8 +268,7 @@
     background: #fff;
     opacity: 1;
     @include box-shadow(rgba(0,0,0,0.2) 0px 1px 4px);
-    @include border-radius(40px);
-    
+    @include border-radius(40px);   
 }
 
 }  
