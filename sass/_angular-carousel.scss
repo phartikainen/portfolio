@@ -250,7 +250,7 @@
     height: 80px;
     width: 80px;
     text-align: center;
-    text-indent: 3px;
+    text-indent: -3px;
     line-height: 78px;
     background: #fff;
     opacity: 1;
@@ -272,6 +272,28 @@
     
 }
 
+}  
+
+@media only screen and (min-width: 1760px) {      
+.rn-carousel-control.rn-carousel-control-prev {
+    left: calc(50% - 850px) !important;
+    height: 120px;
+    width: 120px;
+    line-height: 118px;
+    background: #fff;
+    opacity: 1;
+    @include box-shadow(rgba(0,0,0,0.2) 0px 1px 4px);
+    @include border-radius(60px);
+}
+.rn-carousel-control.rn-carousel-control-next {
+    right: calc(50% - 850px) !important;
+    height: 120px;
+    width: 120px;
+    line-height: 118px;
+
+    @include border-radius(60px);
+    
+}
 }  
 
 @media only screen and (max-width: 1023px) {      
