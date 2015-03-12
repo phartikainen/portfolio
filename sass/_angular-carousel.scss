@@ -16,18 +16,22 @@
     //margin-top: -44px;
     padding-bottom: 44px;
     padding-top: 0px;
-    cursor: -webkit-grab;
+    cursor: default;
+   /* cursor: -webkit-grab;
     cursor: -moz-grab;
+    */
 		overflow-x:hidden;
 		overflow-y:visible;
 		-webkit-overflow-scrolling: touch; //adding this line will enable inertial scrolling
 }
 
-
+/*
 .my-slider li:active {
 	cursor: -webkit-grabbing;
 	cursor: -moz-grabbing;
 }
+
+*/
 .my-slider li div.debug {
     box-sizing: border-box;
     position:absolute;
