@@ -114,6 +114,8 @@ summary {
 	strong { font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 700; font-style: italic;}
 	}
 
+	
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -245,6 +247,17 @@ summary {
 	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: italic;
 	color: #444;
 }
+
+#swipe {
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: italic;
+	@include adjust-font-size-to(36px);
+	padding-top: 2em !important;
+	padding-bottom: 1em !important;
+	text-align: center;
+	@include background-image(linear-gradient(top, #efefef 0%,#f4f4f4 100%));
+
+}
+
 
 p + p {
 	text-indent: 20px;
@@ -1054,7 +1067,15 @@ you can use the generic selector below, but it's slower:
 
 @media only screen and (min-width: 640px) {
 	
+#swipe {
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: italic;
+	@include adjust-font-size-to(60px);
+	padding-top: 1em !important;
+	padding-bottom: 1em !important;
+	text-align: center;
+	@include background-image(linear-gradient(top, #efefef 0%,#f4f4f4 100%));
 
+}
 	
 	div.front-bg {
 	// min-height: calc(100vh -);
@@ -1158,6 +1179,13 @@ header {
 	top: 50%;
 	width: auto;
 	// visibility: hidden;
+	
+	#swipe {
+
+	padding-top: 2em !important;
+
+
+}
 
 	
 	a {
@@ -1555,4 +1583,9 @@ div.bg-white, div.bg-grey {
     h3 {
         page-break-after: avoid;
     }
+}
+
+
+.no-touch #swipe {
+	display: none;
 }
