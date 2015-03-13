@@ -389,7 +389,7 @@ u span {
 	white-space: nowrap;
 	margin-bottom: 1em;
 	}
-
+/* 
 .grd { background: #f2c600; h2 {color: #fff; } }
 .prt { background: #f49e00; }
 .ixd { background: #e77f11; h2 {color: #fff; } }
@@ -402,10 +402,15 @@ u span {
 .uxd { background: #06a086; h2 {color: #fff; }}
 .con { background: #00be9a; }
 .pro { background: #636363; }
+*/
 //.non { background: #4FB3C0; }
 //.non { background: #BCCCCF; }
 
- .non { background: #f6f6f6; color: #777; }
+.grd, .prt, .ixd, .dev, .cmm, .sal, .tea, .sto, .uid, .uxd, .con, .pro {
+	background: #4FB3C0;
+}
+
+.non { background: #f6f6f6; color: #777; }
 
 
 /* ==========================================================================
@@ -413,7 +418,10 @@ u span {
    ========================================================================== */
 
 
-
+div.col-right u {
+	padding: 0px 15px 0px 15px;
+	display: inline-block;
+}
 
 header {
 	position: fixed;
