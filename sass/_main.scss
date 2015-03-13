@@ -262,6 +262,18 @@ summary {
 
 }
 
+#swipeclick {
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: italic;
+	@include adjust-font-size-to(36px);
+	padding-top: 2em !important;
+	padding-bottom: 1em !important;
+	text-align: center;
+	@include background-image(linear-gradient(top, #efefef 0%,#f4f4f4 100%));
+	background: transparent;
+
+}
+
+
 
 p + p {
 	text-indent: 20px;
@@ -1114,6 +1126,16 @@ you can use the generic selector below, but it's slower:
 	@include background-image(linear-gradient(top, #efefef 0%,#f4f4f4 100%));
 
 }
+
+#swipeclick {
+	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: italic;
+	@include adjust-font-size-to(60px);
+	padding-top: 1em !important;
+	padding-bottom: 1em !important;
+	text-align: center;
+	background: transparent;
+
+}
 	
 	div.front-bg {
 	// min-height: calc(100vh -);
@@ -1220,6 +1242,13 @@ header {
 	// visibility: hidden;
 	
 	#swipe {
+
+	padding-top: 2em !important;
+
+
+}
+
+	#swipeclick {
 
 	padding-top: 2em !important;
 
@@ -1626,5 +1655,9 @@ div.bg-white, div.bg-grey {
 
 
 .no-touch #swipe {
+	display: none;
+}
+
+.touch #swipeclick {
 	display: none;
 }
