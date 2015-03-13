@@ -145,6 +145,10 @@ hr {
     padding: 0;
 }
 
+.cd-timeline-content hr {
+	border-top: 1px solid #d6e0e7;
+}
+
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
@@ -326,6 +330,16 @@ p {
 	widows: 2;
 }
 
+.compu {
+	text-align: center;
+width: 100%;
+margin: 0 auto;
+// display: table;
+border-top: 1px solid #d6e0e7;
+margin-top: 1em;
+height: 1.6em;
+}
+
 u {
 	padding-left: 0em;
 	text-decoration: none;
@@ -334,12 +348,29 @@ u {
 	font-family: 'Gotham SSm A', 'Gotham SSm B';
 	font-weight: 400;
 	@include rhythm(3, 0, 0, 0, 32px);
+
+}
+
+
+u.comp {
+	color: #a5a5a5;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	display: inline-block;
+	float: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #fff;
+	position: relative;
+	top: -1.5em;
+		display: inline-block;
+
 }
 
 u span { 
 	color: #fff;
-	padding: 4px 10px 5px 10px;
+	padding: 0px 10px 1px 10px;
 	@include border-radius(3px);
 	display: inline-block;
 	margin-right: 6px;
@@ -359,6 +390,8 @@ u span {
 .uxd { background: #06a086; h2 {color: #fff; }}
 .con { background: #00be9a; }
 .pro { background: #636363; }
+//.non { background: #4FB3C0; }
+.non { background: #f6f6f6; color: #777; }
 
 
 /* ==========================================================================
@@ -813,7 +846,10 @@ div.end {
 }
 
 
-
+  .mover {
+		//	clear:both;
+		margin-top: -1em;
+}
 
 
 
@@ -1084,15 +1120,16 @@ you can use the generic selector below, but it's slower:
 	// border-bottom: 1px solid #000;
 }
 
+  .mover {
+		//	clear:both;
+		margin-top: 0em;
+}
 	
   #slogan1, #slogan2, #slogan3, #slogan4, #testimonial1, #testimonial2, #testimonial3 {
     padding-top: 66.666666%; // (640px / 960 px) = 66.666666%
   }
   
-  .mover {
-			clear:both;
-		margin-top: -3em;
-}
+
   	.storyheading {
 	// padding-left: 0;
 	text-align: center;
