@@ -228,8 +228,11 @@ Main components
 	}
 	
 	.cd-read-more {
-		margin-bottom: 2em;
-	//	width: 100%;
+		margin-bottom: 0em;
+		@include MQ(M) {
+			// margin-bottom: 2em;
+		}
+		//width: 100%;
 		// margin-top: 0.5em;
 		// float: right;
 		text-align: center;
@@ -309,7 +312,7 @@ font-weight: 300;
 		}
 
 		.cd-read-more {
-			// float: left;
+			//float: left;
 			// width: 50%;
 		}
 
@@ -333,7 +336,7 @@ font-weight: 300;
 			}
 
 			.cd-read-more {
-				// float: right;
+			//	float: left;
 				// width: 50%;
 			}
 
