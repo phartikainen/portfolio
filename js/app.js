@@ -33,7 +33,7 @@ config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($ro
         'background': 'url("../img/pekka-home3.jpg") top center / cover no-repeat'
       }
     },
-  	templateUrl: 'partials/partial_index_new.html',
+  	templateUrl: 'partials/partial_index.html',
   	controller: 'MainCtrl'
   });
   
@@ -43,7 +43,7 @@ config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($ro
         'background': 'transparent'
       }
     },
-  	templateUrl: 'partials/partial1.html',
+  	templateUrl: 'partials/partial_portfolio.html',
   	controller: 'MainCtrl'
   });
 	
@@ -53,7 +53,7 @@ config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($ro
         'background': 'transparent'
       }
     },
-  	templateUrl: 'partials/partial_story2.html',
+  	templateUrl: 'partials/partial_story.html',
   	controller: 'MainCtrl'
   });
   
