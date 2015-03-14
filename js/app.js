@@ -14,6 +14,7 @@ var myApp = angular.module('myApp', [
   'myApp.controllers',
   'angular-gestures',
   'angular-carousel',
+	'ngPicturefill',
   'monospaced.mousewheel',
   'twitter.timeline',
 ]).
