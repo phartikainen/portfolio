@@ -463,7 +463,6 @@ box-shadow: 0px 0px 1px 1px #ddd;
 }
 
 .topimage {
-	background: url('../img/portfolio-curve.png') no-repeat top center;
 	background-size: contain;
 	padding-bottom: 56.5625%;
 }
@@ -790,9 +789,7 @@ div.front-bg {
 }
 
 #contact {
-		@include background(
-			url('../img/freelancer2.jpg') top / cover no-repeat,
-			radial-gradient(center, ellipse cover,  #668388 0%,#587577 59%) center center / 100% 100% no-repeat );
+		@include background(url('../img/freelancer2.jpg') top / cover no-repeat);
 }
 
 #story {
