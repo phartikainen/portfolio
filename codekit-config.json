@@ -13,17 +13,6 @@
       "initialSize" : 36248,
       "fileType" : 8192
     },
-    "\/js\/angular-animate.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/angular-animate.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/angular-animate.min.js",
-      "fileType" : 64
-    },
     "\/img\/mafy5-m.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -34,6 +23,17 @@
       "outputAbbreviatedPath" : "\/img\/mafy5-m.jpg",
       "initialSize" : 42266,
       "fileType" : 4096
+    },
+    "\/js\/angular-animate.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/angular-animate.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/angular-animate.min.js",
+      "fileType" : 64
     },
     "\/bower_components\/angular-route\/angular-route.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -370,17 +370,6 @@
       "initialSize" : 151684,
       "fileType" : 8192
     },
-    "\/bower_components\/picturefill\/dist\/picturefill.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/picturefill\/dist\/picturefill.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/bower_components\/picturefill\/dist\/picturefill.min.min.js",
-      "fileType" : 64
-    },
     "\/js\/angular-carousel.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -412,6 +401,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/bower_components\/picturefill\/dist\/picturefill.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bower_components\/picturefill\/dist\/picturefill.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/bower_components\/picturefill\/dist\/picturefill.min.min.js",
+      "fileType" : 64
+    },
     "\/img\/metoday1.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -423,17 +423,6 @@
       "initialSize" : 161130,
       "fileType" : 4096
     },
-    "\/js\/angular-touch.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/angular-touch.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/angular-touch.min.js",
-      "fileType" : 64
-    },
     "\/img\/abouttellyo-mobile3.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -444,6 +433,17 @@
       "outputAbbreviatedPath" : "\/img\/abouttellyo-mobile3.png",
       "initialSize" : 157902,
       "fileType" : 8192
+    },
+    "\/js\/angular-touch.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/angular-touch.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/angular-touch.min.js",
+      "fileType" : 64
     },
     "\/css\/all.css" : {
       "ignoreWasSetByUser" : 0,
@@ -582,17 +582,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-144x144-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-144x144-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-144x144-precomposed.png",
-      "initialSize" : 2048,
-      "fileType" : 8192
-    },
     "\/img\/mehilainen-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -602,6 +591,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/mehilainen-logo.png",
       "initialSize" : 23139,
+      "fileType" : 8192
+    },
+    "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-144x144-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-144x144-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-144x144-precomposed.png",
+      "initialSize" : 2048,
       "fileType" : 8192
     },
     "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/add2home.js" : {
@@ -829,6 +829,17 @@
       "initialSize" : 63695,
       "fileType" : 4096
     },
+    "\/img\/abouttellyo1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/abouttellyo1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/abouttellyo1.jpg",
+      "initialSize" : 109139,
+      "fileType" : 4096
+    },
     "\/fonts\/292352\/83DF0E2D557BFFC3D.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -847,16 +858,23 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/directives.js" : {
+    "\/css\/fonts.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/fonts.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/demo.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/directives.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/directives.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/demo.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/img\/mafy4.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -869,26 +887,6 @@
       "initialSize" : 199809,
       "fileType" : 4096
     },
-    "\/demo.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-72x72-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-72x72-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-72x72-precomposed.png",
-      "initialSize" : 2291,
-      "fileType" : 8192
-    },
     "\/img\/bd_signupflow_002_panel2-bio.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -900,14 +898,16 @@
       "initialSize" : 108381,
       "fileType" : 4096
     },
-    "\/css\/fonts.css" : {
+    "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-72x72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/fonts.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-72x72-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-72x72-precomposed.png",
+      "initialSize" : 2291,
+      "fileType" : 8192
     },
     "\/sass\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -932,16 +932,16 @@
       "initialSize" : 24501,
       "fileType" : 4096
     },
-    "\/img\/abouttellyo1.jpg" : {
+    "\/js\/directives.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/abouttellyo1.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/abouttellyo1.jpg",
-      "initialSize" : 109139,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/js\/directives.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/directives.min.js",
+      "fileType" : 64
     },
     "\/fonts\/292352\/13C19A12828570918.css" : {
       "ignoreWasSetByUser" : 0,
@@ -1027,15 +1027,6 @@
       "initialSize" : 180221,
       "fileType" : 4096
     },
-    "\/bower_components\/angular-carousel\/demo\/demo.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/demo.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/angular-snap.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1046,6 +1037,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/angular-snap.min.min.js",
       "fileType" : 64
+    },
+    "\/fonts\/292352\/6ADCFF6A38948B85F.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/fonts\/292352\/6ADCFF6A38948B85F.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/img\/mehilainen-2-m.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1058,6 +1058,15 @@
       "initialSize" : 70671,
       "fileType" : 4096
     },
+    "\/bower_components\/angular-carousel\/demo\/demo.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/demo.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/js\/angular-carousel.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1068,15 +1077,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/angular-carousel.min.js",
       "fileType" : 64
-    },
-    "\/fonts\/292352\/6ADCFF6A38948B85F.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/292352\/6ADCFF6A38948B85F.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/bower_components\/picturefill\/dist\/picturefill.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1403,14 +1403,16 @@
       "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/test\/karma.conf.min.js",
       "fileType" : 64
     },
-    "\/bower_components\/angular-carousel\/demo\/flickr-full\/styles.css" : {
+    "\/img\/bd_signupflow_008_panel3-new-practice-active.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/styles.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/img\/bd_signupflow_008_panel3-new-practice-active.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/bd_signupflow_008_panel3-new-practice-active.jpg",
+      "initialSize" : 98543,
+      "fileType" : 4096
     },
     "\/img\/bd_signupflow_002_panel2-bio-m.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1423,16 +1425,14 @@
       "initialSize" : 25944,
       "fileType" : 4096
     },
-    "\/img\/bd_signupflow_008_panel3-new-practice-active.jpg" : {
+    "\/bower_components\/angular-carousel\/demo\/flickr-full\/styles.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/bd_signupflow_008_panel3-new-practice-active.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/bd_signupflow_008_panel3-new-practice-active.jpg",
-      "initialSize" : 98543,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/styles.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/img\/metoday1-m.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1705,16 +1705,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/angular-gestures.js" : {
+    "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/angular-gestures.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/angular-gestures.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
     },
     "\/img\/freelancer2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1727,14 +1725,16 @@
       "initialSize" : 520895,
       "fileType" : 4096
     },
-    "\/config.rb" : {
+    "\/js\/angular-gestures.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
+      "inputAbbreviatedPath" : "\/js\/angular-gestures.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/angular-gestures.min.js",
+      "fileType" : 64
     },
     "\/img\/metoday-mobile2.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1811,17 +1811,6 @@
       "initialSize" : 35398,
       "fileType" : 4096
     },
-    "\/bower_components\/angular-gestures\/gestures.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/angular-gestures\/gestures.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/bower_components\/angular-gestures\/gestures.min.min.js",
-      "fileType" : 64
-    },
     "\/img\/viinimaa-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1832,6 +1821,17 @@
       "outputAbbreviatedPath" : "\/img\/viinimaa-logo.png",
       "initialSize" : 71355,
       "fileType" : 8192
+    },
+    "\/bower_components\/angular-gestures\/gestures.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bower_components\/angular-gestures\/gestures.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/bower_components\/angular-gestures\/gestures.min.min.js",
+      "fileType" : 64
     },
     "\/fonts\/292352\/8ACB275AFF82E5724.css" : {
       "ignoreWasSetByUser" : 0,
@@ -2419,17 +2419,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/viinimaa2.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/viinimaa2.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/viinimaa2.jpg",
-      "initialSize" : 51632,
-      "fileType" : 4096
-    },
     "\/bower_components\/angular-carousel\/src\/css\/angular-carousel.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2441,6 +2430,17 @@
       "outputAbbreviatedPath" : "\/css\/angular-carousel.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/img\/mafy-logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/mafy-logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/mafy-logo.png",
+      "initialSize" : 11914,
+      "fileType" : 8192
     },
     "\/js\/angular-touch.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2496,16 +2496,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/img\/mafy-logo.png" : {
+    "\/img\/viinimaa2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/mafy-logo.png",
+      "inputAbbreviatedPath" : "\/img\/viinimaa2.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/mafy-logo.png",
-      "initialSize" : 11914,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/img\/viinimaa2.jpg",
+      "initialSize" : 51632,
+      "fileType" : 4096
     },
     "\/bower_components\/angular-carousel\/demo\/flickr-full\/scss\/user.scss" : {
       "ignoreWasSetByUser" : 0,
