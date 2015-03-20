@@ -546,17 +546,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/mehilainen-logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/mehilainen-logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/mehilainen-logo.png",
-      "initialSize" : 23139,
-      "fileType" : 8192
-    },
     "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-144x144-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -566,6 +555,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-144x144-precomposed.png",
       "initialSize" : 2048,
+      "fileType" : 8192
+    },
+    "\/img\/mehilainen-logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/mehilainen-logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/mehilainen-logo.png",
+      "initialSize" : 23139,
       "fileType" : 8192
     },
     "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/add2home.js" : {
@@ -1098,16 +1098,16 @@
       "initialSize" : 105783,
       "fileType" : 4096
     },
-    "\/img\/rockies.jpg" : {
+    "\/img\/matkahuolto3.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/rockies.jpg",
+      "inputAbbreviatedPath" : "\/img\/matkahuolto3.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/rockies.jpg",
-      "initialSize" : 539450,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/img\/matkahuolto3.png",
+      "initialSize" : 116994,
+      "fileType" : 8192
     },
     "\/bower_components\/angular-carousel\/demo\/flickr-full\/scss\/assets\/title-bar.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1132,16 +1132,16 @@
       "outputAbbreviatedPath" : "\/bower_components\/angular-chart\/angular-chart.min.js",
       "fileType" : 64
     },
-    "\/img\/matkahuolto3.png" : {
+    "\/img\/rockies.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/matkahuolto3.png",
+      "inputAbbreviatedPath" : "\/img\/rockies.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/matkahuolto3.png",
-      "initialSize" : 116994,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/img\/rockies.jpg",
+      "initialSize" : 539450,
+      "fileType" : 4096
     },
     "\/img\/metoday4-m.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2577,17 +2577,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/mafy1-m.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/mafy1-m.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/mafy1-m.jpg",
-      "initialSize" : 42177,
-      "fileType" : 4096
-    },
     "\/img\/viinimaa4.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2597,6 +2586,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/viinimaa4.jpg",
       "initialSize" : 153534,
+      "fileType" : 4096
+    },
+    "\/img\/mafy1-m.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/mafy1-m.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/mafy1-m.jpg",
+      "initialSize" : 42177,
       "fileType" : 4096
     },
     "\/js\/helper.js" : {
