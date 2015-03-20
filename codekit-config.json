@@ -112,17 +112,16 @@
       "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/src\/directives\/rn-carousel-controls.min.js",
       "fileType" : 64
     },
-    "\/sass\/fonts.scss" : {
+    "\/bower_components\/angular-picturefill\/angular-picturefill.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/fonts.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/fonts.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/bower_components\/angular-picturefill\/angular-picturefill.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/bower_components\/angular-picturefill\/angular-picturefill.min.js",
+      "fileType" : 64
     },
     "\/bower_components\/angular-carousel\/src\/directives\/rn-carousel.js" : {
       "ignoreWasSetByUser" : 0,
@@ -135,16 +134,17 @@
       "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/src\/directives\/rn-carousel.min.js",
       "fileType" : 64
     },
-    "\/bower_components\/angular-picturefill\/angular-picturefill.js" : {
+    "\/sass\/fonts.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/angular-picturefill\/angular-picturefill.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/bower_components\/angular-picturefill\/angular-picturefill.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/sass\/fonts.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/fonts.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/bower_components\/angular-carousel\/lib\/angular-mobile.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1098,16 +1098,16 @@
       "initialSize" : 105783,
       "fileType" : 4096
     },
-    "\/img\/matkahuolto3.png" : {
+    "\/img\/rockies.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/matkahuolto3.png",
+      "inputAbbreviatedPath" : "\/img\/rockies.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/matkahuolto3.png",
-      "initialSize" : 116994,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/img\/rockies.jpg",
+      "initialSize" : 539450,
+      "fileType" : 4096
     },
     "\/bower_components\/angular-carousel\/demo\/flickr-full\/scss\/assets\/title-bar.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1132,16 +1132,16 @@
       "outputAbbreviatedPath" : "\/bower_components\/angular-chart\/angular-chart.min.js",
       "fileType" : 64
     },
-    "\/img\/rockies.jpg" : {
+    "\/img\/matkahuolto3.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/rockies.jpg",
+      "inputAbbreviatedPath" : "\/img\/matkahuolto3.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/rockies.jpg",
-      "initialSize" : 539450,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/img\/matkahuolto3.png",
+      "initialSize" : 116994,
+      "fileType" : 8192
     },
     "\/img\/metoday4-m.jpg" : {
       "ignoreWasSetByUser" : 0,
