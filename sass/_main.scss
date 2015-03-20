@@ -319,8 +319,13 @@ p span {
 	// text-transform: lowercase;
 	font-size: 1em;
 	// font-weight: 700;
+
 	}
-	
+@-moz-document url-prefix() {
+     p span {
+          font-variant: normal;
+      }
+}	
 .lis p {
 	display: list-item;
 	list-style-type: disc;
@@ -360,6 +365,9 @@ u {
 	font-family: 'Gotham SSm A', 'Gotham SSm B';
 	font-weight: 400;
 	@include rhythm(3, 0, 0, 0, 32px);
+	@-moz-document url-prefix() {
+          font-variant: normal;
+	}	
 
 }
 
@@ -813,6 +821,9 @@ figcaption {
 	color: $color;
 	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 400; font-style: normal;
 	font-variant: small-caps;
+		@-moz-document url-prefix() {
+          font-variant: normal;
+	}	
 	text-transform: lowercase;
 	@include adjust-font-size-to(14px);
 	@include rhythm(5, 0, 5, 0, 16px);
@@ -1453,6 +1464,7 @@ div.colwrapper {
 			line-height: em(18px);
 		}
 		
+		
 	}
 
 
@@ -1727,3 +1739,23 @@ div.bg-white, div.bg-grey {
 .touch #swipeclick {
 	display: none;
 }
+
+// SMALL-CAPS HACK
+
+body:not(:-moz-handler-blocked) {
+	aside, {
+    font-variant-caps: normal !important; 
+    text-transform: uppercase;
+	  font-size: 100%;
+    }
+    
+  .non, .comp, .listable, .tableu, figcaption, u span {
+	  font-variant-caps: normal !important; 
+    text-transform: uppercase;
+	  font-size: 70%;
+  } 
+  
+
+}
+
+
