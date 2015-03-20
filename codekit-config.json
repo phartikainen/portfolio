@@ -2412,17 +2412,6 @@
       "initialSize" : 19257,
       "fileType" : 4096
     },
-    "\/js\/vertical-timeline.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vertical-timeline.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vertical-timeline.min.js",
-      "fileType" : 64
-    },
     "\/img\/bd_doctor-public-profile-m.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2433,6 +2422,17 @@
       "outputAbbreviatedPath" : "\/img\/bd_doctor-public-profile-m.jpg",
       "initialSize" : 97305,
       "fileType" : 4096
+    },
+    "\/js\/vertical-timeline.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vertical-timeline.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vertical-timeline.min.js",
+      "fileType" : 64
     },
     "\/img\/ky-times.jpg" : {
       "ignoreWasSetByUser" : 0,
