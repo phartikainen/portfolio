@@ -321,16 +321,16 @@
       "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/Gruntfile.min.js",
       "fileType" : 64
     },
-    "\/js\/angular-carousel.min.js" : {
+    "\/img\/abouttellyo-mobile1.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/angular-carousel.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/angular-carousel.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/img\/abouttellyo-mobile1.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/abouttellyo-mobile1.png",
+      "initialSize" : 151684,
+      "fileType" : 8192
     },
     "\/bower_components\/picturefill\/dist\/picturefill.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -341,6 +341,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/bower_components\/picturefill\/dist\/picturefill.min.min.js",
+      "fileType" : 64
+    },
+    "\/js\/angular-carousel.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/angular-carousel.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/angular-carousel.min.min.js",
       "fileType" : 64
     },
     "\/img\/tellyo-logo.png" : {
@@ -363,17 +374,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/abouttellyo-mobile1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/abouttellyo-mobile1.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/abouttellyo-mobile1.png",
-      "initialSize" : 151684,
-      "fileType" : 8192
-    },
     "\/img\/metoday1.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -385,17 +385,6 @@
       "initialSize" : 161130,
       "fileType" : 4096
     },
-    "\/img\/abouttellyo-mobile3.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/abouttellyo-mobile3.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/abouttellyo-mobile3.png",
-      "initialSize" : 157902,
-      "fileType" : 8192
-    },
     "\/js\/angular-touch.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -406,6 +395,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/angular-touch.min.js",
       "fileType" : 64
+    },
+    "\/img\/abouttellyo-mobile3.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/abouttellyo-mobile3.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/abouttellyo-mobile3.png",
+      "initialSize" : 157902,
+      "fileType" : 8192
     },
     "\/css\/all.css" : {
       "ignoreWasSetByUser" : 0,
@@ -535,17 +535,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/mehilainen-logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/mehilainen-logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/mehilainen-logo.png",
-      "initialSize" : 23139,
-      "fileType" : 8192
-    },
     "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-144x144-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -555,6 +544,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-144x144-precomposed.png",
       "initialSize" : 2048,
+      "fileType" : 8192
+    },
+    "\/img\/mehilainen-logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/mehilainen-logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/mehilainen-logo.png",
+      "initialSize" : 23139,
       "fileType" : 8192
     },
     "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/add2home.js" : {

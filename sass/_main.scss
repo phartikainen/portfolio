@@ -1142,10 +1142,19 @@ you can use the generic selector below, but it's slower:
 	padding-bottom: 2em;
 }
 div.col-right u.tableu span {
-	color: #222;
-	font-weight: 900;
+	color: #444;
+	font-weight: 700;
 	padding: 0;
 	margin: 0;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.col-left ul.listable {
+	  padding-top: 0.5em;
+}
+
+div.col-right u.tlast {
+	padding-bottom: 0em;
 }
 
 
