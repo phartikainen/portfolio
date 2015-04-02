@@ -78,25 +78,6 @@ config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($ro
   	controller: 'MainCtrl'
   });
   
-  $routeProvider.when('/view2/', {
-	  RouteData: {
-      bodyStyle: {
-        'background': 'transparent'
-      }
-    },
-  	templateUrl: 'partials/partial2.html',
-  	controller: 'MyCtrl2'
-  });
-  
-  $routeProvider.when('/view3/', {
-	  RouteData: {
-      bodyStyle: {
-        'background': 'transparent'
-      }
-    },
-  	templateUrl: 'partials/partial2.html',
-  	controller: 'MyCtrl2'
-  });
   
   $routeProvider.otherwise({
   	redirectTo: '/'

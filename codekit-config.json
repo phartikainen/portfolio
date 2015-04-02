@@ -133,17 +133,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/bower_components\/angular-picturefill\/angular-picturefill.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/angular-picturefill\/angular-picturefill.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/bower_components\/angular-picturefill\/angular-picturefill.min.js",
-      "fileType" : 64
-    },
     "\/bower_components\/angular-carousel\/src\/directives\/rn-carousel.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -153,6 +142,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/src\/directives\/rn-carousel.min.js",
+      "fileType" : 64
+    },
+    "\/bower_components\/angular-picturefill\/angular-picturefill.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bower_components\/angular-picturefill\/angular-picturefill.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/bower_components\/angular-picturefill\/angular-picturefill.min.js",
       "fileType" : 64
     },
     "\/bower_components\/angular-carousel\/lib\/angular-mobile.js" : {
@@ -423,17 +423,6 @@
       "initialSize" : 161130,
       "fileType" : 4096
     },
-    "\/js\/angular-touch.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/angular-touch.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/angular-touch.min.js",
-      "fileType" : 64
-    },
     "\/img\/abouttellyo-mobile3.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -444,6 +433,17 @@
       "outputAbbreviatedPath" : "\/img\/abouttellyo-mobile3.png",
       "initialSize" : 157902,
       "fileType" : 8192
+    },
+    "\/js\/angular-touch.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/angular-touch.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/angular-touch.min.js",
+      "fileType" : 64
     },
     "\/css\/all.css" : {
       "ignoreWasSetByUser" : 0,
@@ -878,14 +878,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css\/fonts.css" : {
+    "\/img\/mafy4.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/fonts.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/img\/mafy4.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/mafy4.jpg",
+      "initialSize" : 199809,
+      "fileType" : 4096
     },
     "\/img\/bd_signupflow_002_panel2-bio.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -898,16 +900,16 @@
       "initialSize" : 108381,
       "fileType" : 4096
     },
-    "\/img\/mafy4.jpg" : {
+    "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-72x72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/mafy4.jpg",
+      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-72x72-precomposed.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/mafy4.jpg",
-      "initialSize" : 199809,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-72x72-precomposed.png",
+      "initialSize" : 2291,
+      "fileType" : 8192
     },
     "\/sass\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -932,16 +934,14 @@
       "initialSize" : 24501,
       "fileType" : 4096
     },
-    "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-72x72-precomposed.png" : {
+    "\/css\/fonts.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-72x72-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/img\/apple-touch-icon-72x72-precomposed.png",
-      "initialSize" : 2291,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/css\/fonts.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/fonts\/292352\/13C19A12828570918.css" : {
       "ignoreWasSetByUser" : 0,
@@ -951,17 +951,6 @@
       "inputAbbreviatedPath" : "\/fonts\/292352\/13C19A12828570918.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/lazy.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/lazy.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/lazy.min.js",
-      "fileType" : 64
     },
     "\/img\/kluuvi-logo.png" : {
       "ignoreWasSetByUser" : 0,
@@ -973,6 +962,17 @@
       "outputAbbreviatedPath" : "\/img\/kluuvi-logo.png",
       "initialSize" : 29832,
       "fileType" : 8192
+    },
+    "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/lazy.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/lazy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/lazy.min.js",
+      "fileType" : 64
     },
     "\/img\/viinimaa2-m.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1027,14 +1027,16 @@
       "initialSize" : 180221,
       "fileType" : 4096
     },
-    "\/bower_components\/angular-carousel\/demo\/demo.css" : {
+    "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/angular-snap.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/demo.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/angular-snap.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/angular-snap.min.min.js",
+      "fileType" : 64
     },
     "\/fonts\/292352\/6ADCFF6A38948B85F.css" : {
       "ignoreWasSetByUser" : 0,
@@ -1045,16 +1047,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/img\/mehilainen-2-m.jpg" : {
+    "\/bower_components\/angular-carousel\/demo\/demo.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/mehilainen-2-m.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/mehilainen-2-m.jpg",
-      "initialSize" : 70671,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/demo.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/js\/angular-carousel.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1067,16 +1067,16 @@
       "outputAbbreviatedPath" : "\/js\/angular-carousel.min.js",
       "fileType" : 64
     },
-    "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/angular-snap.min.js" : {
+    "\/img\/mehilainen-2-m.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/angular-snap.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/demo\/flickr-full\/lib\/angular-snap.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/img\/mehilainen-2-m.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/mehilainen-2-m.jpg",
+      "initialSize" : 70671,
+      "fileType" : 4096
     },
     "\/bower_components\/picturefill\/dist\/picturefill.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1197,16 +1197,16 @@
       "initialSize" : 105783,
       "fileType" : 4096
     },
-    "\/img\/rockies.jpg" : {
+    "\/img\/matkahuolto3.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/rockies.jpg",
+      "inputAbbreviatedPath" : "\/img\/matkahuolto3.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/rockies.jpg",
-      "initialSize" : 539450,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/img\/matkahuolto3.png",
+      "initialSize" : 116994,
+      "fileType" : 8192
     },
     "\/bower_components\/angular-carousel\/demo\/flickr-full\/scss\/assets\/title-bar.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1220,16 +1220,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/matkahuolto3.png" : {
+    "\/img\/rockies.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/matkahuolto3.png",
+      "inputAbbreviatedPath" : "\/img\/rockies.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/matkahuolto3.png",
-      "initialSize" : 116994,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/img\/rockies.jpg",
+      "initialSize" : 539450,
+      "fileType" : 4096
     },
     "\/bower_components\/angular-chart\/angular-chart.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1705,15 +1705,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/config.rb" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
-    },
     "\/js\/angular-gestures.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1735,6 +1726,15 @@
       "outputAbbreviatedPath" : "\/img\/freelancer2.jpg",
       "initialSize" : 520895,
       "fileType" : 4096
+    },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
     },
     "\/partials\/partial_story-chronological.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1820,17 +1820,6 @@
       "initialSize" : 35398,
       "fileType" : 4096
     },
-    "\/img\/viinimaa-logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/viinimaa-logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/viinimaa-logo.png",
-      "initialSize" : 71355,
-      "fileType" : 8192
-    },
     "\/bower_components\/angular-gestures\/gestures.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1841,6 +1830,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/bower_components\/angular-gestures\/gestures.min.min.js",
       "fileType" : 64
+    },
+    "\/img\/viinimaa-logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/viinimaa-logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/viinimaa-logo.png",
+      "initialSize" : 71355,
+      "fileType" : 8192
     },
     "\/fonts\/292352\/8ACB275AFF82E5724.css" : {
       "ignoreWasSetByUser" : 0,
@@ -1956,6 +1956,17 @@
       "initialSize" : 54348,
       "fileType" : 4096
     },
+    "\/js\/picturefill.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/picturefill.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/picturefill.min.js",
+      "fileType" : 64
+    },
     "\/img\/mafy6.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1978,17 +1989,6 @@
       "outputAbbreviatedPath" : "\/css\/navigation.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/picturefill.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/picturefill.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/picturefill.min.js",
-      "fileType" : 64
     },
     "\/img\/hobbies.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2178,6 +2178,17 @@
       "initialSize" : 264444,
       "fileType" : 4096
     },
+    "\/js\/vendor\/jquery-1.10.2.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/jquery-1.10.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.10.2.min.min.js",
+      "fileType" : 64
+    },
     "\/bower_components\/picturefill\/src\/picturefill.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2199,17 +2210,6 @@
       "outputAbbreviatedPath" : "\/img\/mehilainen-2.jpg",
       "initialSize" : 214911,
       "fileType" : 4096
-    },
-    "\/js\/vendor\/jquery-1.10.2.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/jquery-1.10.2.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.10.2.min.min.js",
-      "fileType" : 64
     },
     "\/img\/metoday2-m.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2439,17 +2439,16 @@
       "initialSize" : 51632,
       "fileType" : 4096
     },
-    "\/bower_components\/angular-carousel\/src\/css\/angular-carousel.scss" : {
+    "\/img\/mafy-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/src\/css\/angular-carousel.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/angular-carousel.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/mafy-logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/mafy-logo.png",
+      "initialSize" : 11914,
+      "fileType" : 8192
     },
     "\/js\/angular-touch.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2462,27 +2461,17 @@
       "outputAbbreviatedPath" : "\/js\/angular-touch.min.min.js",
       "fileType" : 64
     },
-    "\/bower_components\/angular-mousewheel\/mousewheel.js" : {
+    "\/sass\/_screen.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/bower_components\/angular-mousewheel\/mousewheel.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/bower_components\/angular-mousewheel\/mousewheel.min.js",
-      "fileType" : 64
-    },
-    "\/img\/mafy-logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/mafy-logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/mafy-logo.png",
-      "initialSize" : 11914,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/sass\/_screen.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_screen.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/bower_components\/angular-carousel\/test\/unit\/angular-carousel.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2495,6 +2484,18 @@
       "outputAbbreviatedPath" : "\/bower_components\/angular-carousel\/test\/unit\/angular-carousel.min.js",
       "fileType" : 64
     },
+    "\/bower_components\/angular-carousel\/src\/css\/angular-carousel.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/bower_components\/angular-carousel\/src\/css\/angular-carousel.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/angular-carousel.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/fonts\/292352\/CD132B84E473ACC75.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2504,17 +2505,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/sass\/_screen.scss" : {
+    "\/bower_components\/angular-mousewheel\/mousewheel.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_screen.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_screen.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/bower_components\/angular-mousewheel\/mousewheel.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/bower_components\/angular-mousewheel\/mousewheel.min.js",
+      "fileType" : 64
     },
     "\/bower_components\/angular-carousel\/demo\/flickr-full\/scss\/user.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2655,17 +2655,6 @@
       "initialSize" : 19257,
       "fileType" : 4096
     },
-    "\/img\/bd_doctor-public-profile-m.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/bd_doctor-public-profile-m.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/bd_doctor-public-profile-m.jpg",
-      "initialSize" : 97305,
-      "fileType" : 4096
-    },
     "\/js\/vertical-timeline.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2677,15 +2666,15 @@
       "outputAbbreviatedPath" : "\/js\/vertical-timeline.min.js",
       "fileType" : 64
     },
-    "\/img\/ky-times.jpg" : {
+    "\/img\/bd_doctor-public-profile-m.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/ky-times.jpg",
+      "inputAbbreviatedPath" : "\/img\/bd_doctor-public-profile-m.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/ky-times.jpg",
-      "initialSize" : 64194,
+      "outputAbbreviatedPath" : "\/img\/bd_doctor-public-profile-m.jpg",
+      "initialSize" : 97305,
       "fileType" : 4096
     },
     "\/js\/angular.js" : {
@@ -2698,6 +2687,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/angular.min.js",
       "fileType" : 64
+    },
+    "\/img\/ky-times.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/ky-times.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/ky-times.jpg",
+      "initialSize" : 64194,
+      "fileType" : 4096
     },
     "\/fonts\/292352\/163A74DBB8943AC6B.css" : {
       "ignoreWasSetByUser" : 0,
@@ -2838,17 +2838,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/viinimaa4.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/viinimaa4.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/viinimaa4.jpg",
-      "initialSize" : 153534,
-      "fileType" : 4096
-    },
     "\/img\/mafy1-m.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2858,6 +2847,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/mafy1-m.jpg",
       "initialSize" : 42177,
+      "fileType" : 4096
+    },
+    "\/img\/viinimaa4.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/viinimaa4.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/viinimaa4.jpg",
+      "initialSize" : 153534,
       "fileType" : 4096
     },
     "\/js\/helper.js" : {
