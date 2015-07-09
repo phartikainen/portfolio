@@ -270,6 +270,8 @@ summary {
 	text-align: center;
 	@include background-image(linear-gradient(top, #efefef 0%,#f4f4f4 100%));
 	background: transparent;
+	color: $link-color;
+	cursor: pointer;
 
 }
 

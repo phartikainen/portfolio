@@ -1,4 +1,4 @@
-	<ul rn-carousel rn-carousel-indicator rn-carousel-control  class="my-slider standard ng-cloak" id="test6" msd-wheel="test6($event, $delta, $deltaX, $deltaY)"><li ng-style="">
+	<ul rn-carousel rn-carousel-indicator rn-carousel-control rn-carousel-index class="my-slider standard ng-cloak" id="test6" msd-wheel="test6($event, $delta, $deltaX, $deltaY)"><li ng-style="">
 <!-- slide 2 starts -->            
 		<div class="folio-bg" id="mehilainen"></div>
 
@@ -85,7 +85,7 @@
 
 <div id="swipe">Swipe for next &rsaquo;</div>
 
-<!--<div id="swipeclick">Next project &rsaquo;</div> -->
+<div id="swipeclick" ng-click="indicatorIndex = indicatorIndex + 1" >Next project &rsaquo;</div>
 
 </div>
 
