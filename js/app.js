@@ -31,7 +31,7 @@ config(['$routeProvider', 'RouteDataProvider', '$locationProvider', function($ro
 	$routeProvider.when('/', {
 		RouteData: {
       bodyStyle: {
-        'background': 'url("../img/pekka-home3.jpg") top center / cover no-repeat'
+	      'background': 'transparent'
       }
     },
   	templateUrl: 'partials/partial_index.html',

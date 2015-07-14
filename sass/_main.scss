@@ -225,6 +225,15 @@ aside {
 	
 }
 
+time.post {
+	color: $color;
+	display: block !important;
+}
+
+time + h2 {
+	margin-top: -5px;
+}
+
 aside + h1 {
 	margin-top: -5px;
 }
@@ -681,7 +690,7 @@ nav.mainnavi ul li.togglebut a {
 
 
 
-.maincolumn h1, h2, h3, summary, p, ul.lis, .mainheading h1, h2, h3, summary, aside, p, ul.lis, .colwrapper  {
+.maincolumn h1, h2, h3, summary, p, ul.lis, .mainheading h1, h2, h3, summary, aside, time, p, ul.lis, .colwrapper  {
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
@@ -742,9 +751,9 @@ div.front-bg {
 
 
 #frontlogo {
-	/*	@include background(
+	@include background(
 			url('../img/pekka-home3.jpg') top center / cover no-repeat,
-			radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat ); */
+			radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat );
 }
 
 #betterdoctor {
