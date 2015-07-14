@@ -213,6 +213,18 @@ h1, h2, h3 {
 	color: #222;
 }
 
+a h2 {
+	color: $link-color;
+}
+
+a:focus h2 {
+	outline: no
+}
+
+hr.tiny {
+	width: 60px;
+}
+
 aside {
 	color: $color;
 	font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B'; font-weight: 300; font-style: normal;
@@ -230,7 +242,7 @@ time.post {
 	display: block !important;
 }
 
-time + h2 {
+time + a h2 {
 	margin-top: -5px;
 }
 
@@ -697,7 +709,12 @@ nav.mainnavi ul li.togglebut a {
 	
 }
 
-
+div.tiny {
+	max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 
 img.full {
