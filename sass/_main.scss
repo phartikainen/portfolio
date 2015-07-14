@@ -217,8 +217,9 @@ a h2 {
 	color: $link-color;
 }
 
-a:focus h2 {
-	outline: no
+
+:focus {
+	outline: none !important;
 }
 
 hr.tiny {
