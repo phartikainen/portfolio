@@ -608,8 +608,6 @@ outline:0 none;
 }
 
 nav.mainnavi {
-		display: none;
-		background: rgba(255, 255, 255, 0.98);
 		@include box-shadow(rgba(0, 0, 0, 0.2) 0px 0px 10px);
 		
 			button {
@@ -620,6 +618,11 @@ nav.mainnavi {
 		float: right;
 		border-color: rgba(220, 220, 220, 0.98);
 		border-width: 0px 0px 0px 1px;
+				max-width: 1280px;
+				margin: 0 auto;
+				display: block !important;
+				background: transparent;
+				@include box-shadow(rgba(0, 0, 0, 0.0) 0px 0px 10px);
 	}	
 		i { 
 			color: $link-color;
@@ -637,6 +640,12 @@ nav.mainnavi {
 					//font-size: 14px;
 					text-transform: uppercase;
 					letter-spacing: 1px;
+			border-bottom: 0px;
+			font-size: 11px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			display: inline-block;
+			width: 20%;
 					
 		}
 		
@@ -655,6 +664,10 @@ nav.mainnavi {
 			line-height: 44px;
 			width: 100%;
 			text-indent: 20px;
+			display: block;
+			width: 100%;
+			text-align: center;
+			text-indent: 0px;
 		}
 		
 		ul li ul li a {
@@ -663,8 +676,43 @@ nav.mainnavi {
 			width: 100%;
 			text-indent: 30px;
 		}
-}		
+}
 
+header {
+	border-bottom: 1px solid rgba(204, 204, 204, 0.98);
+	background: rgba(240,240,240,0.96);
+
+	.active {
+		background-color: rgba(255, 255, 255, 0.96);
+		border-right: 1px solid rgba(220, 220, 220, 0.98);
+		border-left: 1px solid rgba(220, 220, 220, 0.98);
+		outline: none;
+
+	}
+	.active:before {
+		content: "";
+	}
+}
+
+.desklogo {
+	background: url("../img/ph-logo.png") center center no-repeat;
+	background-size: 44px 44px;
+	text-indent: -9000px !important;
+}
+
+header + :not(header) {
+	// background: rgba(51, 51, 51, 0.96);
+	//  padding-top: 60px;
+}
+
+.spacehead {
+	height: 44px;
+}
+
+#mobilenav {
+	display: none;
+	height: 60px;
+}
 
 
 nav.mainnavi ul li.togglebut a {
@@ -1163,7 +1211,7 @@ you can use the generic selector below, but it's slower:
 
 @media only screen and (max-width: 640px) {
 
-	
+
   .hide-for-mobile {
     display: none !important;
   }
@@ -1216,7 +1264,9 @@ div.col-right u.tlast {
 }
 
 @media only screen and (min-width: 640px) {
-	
+	nav.mainnavi ul li {
+		font-size: 14px;
+	}
 #swipe {
 	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; font-weight: 300; font-style: italic;
 	@include adjust-font-size-to(60px);
@@ -1285,6 +1335,7 @@ header {
     margin: 0 auto;
     display: block !important;
    background: transparent;
+	  -webkit-font-smoothing: subpixel-antialiased;
     @include box-shadow(rgba(0, 0, 0, 0.0) 0px 0px 10px);
 
     ul li a {
