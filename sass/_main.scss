@@ -229,10 +229,8 @@ hr.tiny {
 aside {
 	color: $color;
 	font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B'; font-weight: 300; font-style: normal;
-	font-variant: small-caps;
-	text-transform: lowercase;
-	font-size: em(21px);
-	// letter-spacing: 0.05em;
+	text-transform: uppercase;
+	font-size: em(18px);
 	@include rhythm(5, 0, 0, 0, 32px);
 	letter-spacing: 0.05em;
 	
