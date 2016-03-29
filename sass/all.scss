@@ -2,16 +2,14 @@
 
 @import "normalize";
 
-@import "print";
-
-@import "screen";
+@import "_screen.scss";
 
 @import "angular-carousel";
 
-@import "animate";
+@import "_animate.scss";
 
-@import "main";
+@import "_main.scss";
 
-@import "timeline";
+@import "_timeline.scss";
 
 
