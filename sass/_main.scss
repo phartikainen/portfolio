@@ -230,7 +230,7 @@ aside {
 	color: $color;
 	font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B'; font-weight: 300; font-style: normal;
 	text-transform: uppercase;
-	font-size: em(18px);
+	font-size: em(14px);
 	@include rhythm(5, 0, 0, 0, 32px);
 	letter-spacing: 0.05em;
 	
@@ -239,6 +239,11 @@ aside {
 time.post {
 	color: $color;
 	display: block !important;
+	    font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B';
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 time + a h2 {

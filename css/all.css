@@ -3060,7 +3060,7 @@ aside {
   font-weight: 300;
   font-style: normal;
   text-transform: uppercase;
-  font-size: 1.28571em;
+  font-size: 1em;
   margin-top: 0.9375em;
   padding-top: 0em;
   padding-bottom: 0em;
@@ -3069,7 +3069,12 @@ aside {
 
 time.post {
   color: #a0a0a0;
-  display: block !important; }
+  display: block !important;
+  font-family: 'Gotham XNarrow SSm A', 'Gotham XNarrow SSm B';
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
 
 time + a h2 {
   margin-top: -5px; }
