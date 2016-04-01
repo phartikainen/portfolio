@@ -3196,8 +3196,8 @@ h3 {
   margin-bottom: 0em; }
 
 p span {
-  font-variant: small-caps;
-  font-size: 1em; }
+  text-transform: uppercase;
+  font-size: 0.8em; }
 
 @-moz-document url-prefix() {
   p span {
@@ -3232,8 +3232,8 @@ p {
 u {
   padding-left: 0em;
   text-decoration: none;
-  text-transform: lowercase;
-  font-variant: small-caps;
+  text-transform: uppercase;
+  font-size: 70%;
   font-family: 'Gotham SSm A', 'Gotham SSm B';
   font-weight: 400;
   margin-top: 0.5625em;
@@ -3652,19 +3652,16 @@ figcaption {
   font-family: 'Gotham SSm A', 'Gotham SSm B';
   font-weight: 400;
   font-style: normal;
-  font-variant: small-caps;
-  text-transform: lowercase;
-  font-size: 1em;
-  line-height: 1.28571em;
-  margin-top: 1.875em;
+  text-transform: uppercase;
+  font-size: 0.78571em;
+  line-height: 1.63636em;
+  margin-top: 2.30769em;
   padding-top: 0em;
-  padding-bottom: 1.875em;
+  padding-bottom: 2.30769em;
   margin-bottom: 0em;
   letter-spacing: 0.1em;
   text-align: center; }
-@-moz-document url-prefix() {
-  figcaption {
-    font-variant: normal; } }
+
 .cd-timeline-content figcaption {
   margin-top: 0em;
   padding-top: 0em;
@@ -4173,8 +4170,8 @@ you can use the generic selector below, but it's slower:
       padding-top: 0.8em; }
     div.colwrapper .listable {
       text-decoration: none;
-      text-transform: lowercase;
-      font-variant: small-caps;
+      text-transform: uppercase;
+      font-size: 70%;
       font-family: 'Gotham SSm A', 'Gotham SSm B';
       font-weight: 400;
       margin-top: 0em;
@@ -4301,10 +4298,9 @@ you can use the generic selector below, but it's slower:
     font-family: 'Gotham SSm A', 'Gotham SSm B';
     font-weight: 400;
     font-style: normal;
-    font-variant: small-caps;
-    text-transform: lowercase;
-    font-size: 1em;
-    line-height: 1.28571em;
+    text-transform: uppercase;
+    font-size: 0.78571em;
+    line-height: 1.63636em;
     margin-top: 2.625em;
     padding-top: 0em;
     padding-bottom: 2.625em;
