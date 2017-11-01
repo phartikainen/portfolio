@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*! normalize.css v1.1.3 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -3580,6 +3579,12 @@ div.front-bg {
   background: url("../img/betterdoctor-logo.png") center center/contain no-repeat, -webkit-radial-gradient(center, ellipse cover, #fbfbfb 0%, #f0f0f0 59%) center center/100% 100% no-repeat;
   background: url("../img/betterdoctor-logo.png") center center/contain no-repeat, radial-gradient(ellipse cover at center, #fbfbfb 0%, #f0f0f0 59%) center center/100% 100% no-repeat; }
 
+#oppex {
+  background: url("../img/oppex-city.jpg") center bottom/cover no-repeat, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iNTklIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmJmYmZiIi8+PHN0b3Agb2Zmc2V0PSI1OSUiIHN0b3AtY29sb3I9IiNmMGYwZjAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=') center center/100% 100% no-repeat;
+  background: url("../img/oppex-city.jpg") center bottom/cover no-repeat, -moz-radial-gradient(center, ellipse cover, #fbfbfb 0%, #f0f0f0 59%) center center/100% 100% no-repeat;
+  background: url("../img/oppex-city.jpg") center bottom/cover no-repeat, -webkit-radial-gradient(center, ellipse cover, #fbfbfb 0%, #f0f0f0 59%) center center/100% 100% no-repeat;
+  background: url("../img/oppex-city.jpg") center bottom/cover no-repeat, radial-gradient(ellipse cover at center, #fbfbfb 0%, #f0f0f0 59%) center center/100% 100% no-repeat; }
+
 #mehilainen {
   background: url("../img/mehilainen-logo.png") center center/contain no-repeat, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iNTklIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmJmYmZiIi8+PHN0b3Agb2Zmc2V0PSI1OSUiIHN0b3AtY29sb3I9IiNmMGYwZjAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=') center center/100% 100% no-repeat;
   background: url("../img/mehilainen-logo.png") center center/contain no-repeat, -moz-radial-gradient(center, ellipse cover, #fbfbfb 0%, #f0f0f0 59%) center center/100% 100% no-repeat;
@@ -3911,7 +3916,7 @@ you can use the generic selector below, but it's slower:
   color: #666; }
 
 .active:before {
-  content: "» "; }
+  content: "\00BB "; }
 
 #speech-bubble {
   text-align: center; }

@@ -748,9 +748,6 @@ nav.mainnavi ul li.togglebut a {
 	margin-right: 5px;
 }
 
-
-
-
 .maincolumn h1, h2, h3, summary, p, ul.lis, .mainheading h1, h2, h3, summary, aside, time, p, ul.lis, .colwrapper  {
     max-width: 940px;
     margin-left: auto;
@@ -827,6 +824,14 @@ div.front-bg {
 			url('../img/betterdoctor-logo.png') center center / contain no-repeat,
 			radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat );
 }
+
+#oppex {
+	@include background(
+									url('../img/oppex-city.jpg') center bottom / cover no-repeat,
+									radial-gradient(center, ellipse cover,  #fbfbfb 0%,#f0f0f0 59%) center center / 100% 100% no-repeat );
+}
+
+// testing
 
 #mehilainen {
 		@include background(
@@ -1192,7 +1197,7 @@ you can use the generic selector below, but it's slower:
 	color: #666;
 }
 .active:before {
-	content: "» ";
+	content: "\00BB ";
 }
 
 #speech-bubble {
